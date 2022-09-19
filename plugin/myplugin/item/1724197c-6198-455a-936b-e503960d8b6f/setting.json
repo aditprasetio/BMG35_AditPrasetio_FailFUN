@@ -1,0 +1,24 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "equip_skill": [
+    "myplugin/hurt"
+  ],
+  "equip_skin": {
+    "": ""
+  },
+  "icon": "@asset/Mesh/Red Grimace Sword/g2030_weapon_7_2.tga",
+  "itemname": "item_1724197c-6198-455a-936b-e503960d8b6f",
+  "mesh": "asset/Mesh/Red Grimace Sword/g2030_weapon_7_4.mesh",
+  "needSave": false,
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false,
+  "tray": []
+}

@@ -1,0 +1,5283 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic",
+        "back": {
+          "asset": "asset/sky_box/Sky_back.png",
+          "selector": "editor/Parkour/asset/sky_box/Sky_back.png"
+        },
+        "bottom": {
+          "asset": "asset/sky_box/Sky_bottom.png",
+          "selector": "editor/Parkour/asset/sky_box/Sky_bottom.png"
+        },
+        "front": {
+          "asset": "asset/sky_box/Sky_front.png",
+          "selector": "editor/Parkour/asset/sky_box/Sky_front.png"
+        },
+        "left": {
+          "asset": "asset/sky_box/Sky_left.png",
+          "selector": "editor/Parkour/asset/sky_box/Sky_left.png"
+        },
+        "right": {
+          "asset": "asset/sky_box/Sky_right.png",
+          "selector": "editor/Parkour/asset/sky_box/Sky_right.png"
+        },
+        "top": {
+          "asset": "asset/sky_box/Sky_top.png",
+          "selector": "editor/Parkour/asset/sky_box/Sky_top.png"
+        }
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985",
+        "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8702766011255783425",
+        "ID": 1,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight",
+        "skyColor": {
+          "b": 231,
+          "g": 222,
+          "r": 207
+        },
+        "skyLineColor": {
+          "b": 198,
+          "g": 99,
+          "r": 106
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "batchType": "Dynamic",
+        "id": "8702766011726299137",
+        "ID": 2,
+        "lightBrightness": 0.6,
+        "lightColor": {
+          "b": 174,
+          "g": 173,
+          "r": 132
+        },
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "x": -52,
+          "y": -29
+        },
+        "shadows": {
+          "shadowsType": "hard"
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "94f84a69-baf0-4494-8298-8711eb980002",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/file/Chapter 5.png",
+              "selector": "editor/Parkour/asset/file/cundangdian.png"
+            },
+            "id": "8426819620523130881"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8320554852331683841",
+        "massCenter": {
+          "x": 13.9402303695679,
+          "y": 33.4900016784668,
+          "z": -19.5661544799805
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "Respawn Point",
+        "position": {
+          "x": 13.9402303695679,
+          "y": 33.4900016784668,
+          "z": -19.5661544799805
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 8.01797,
+          "y": 0.299998,
+          "z": 3.99997
+        },
+        "size": {
+          "x": 8.01796817779541,
+          "y": 0.299998104572296,
+          "z": 3.99996948242188
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "12717222-2267-41ec-bf2e-1040fc3542ca",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalColor": {
+              "b": 254,
+              "g": 219
+            },
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/file/Chapter 5.png",
+              "selector": "editor/Parkour/asset/file/cundangdian.png"
+            },
+            "id": "8426819620526161921"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8320562855976173569",
+        "massCenter": {
+          "x": 11.0252475738525,
+          "y": 41.1069869995117,
+          "z": -13.8181486129761
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "Respawn Point",
+        "position": {
+          "x": 11.0252475738525,
+          "y": 41.1069869995117,
+          "z": -13.8181486129761
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 4,
+          "y": 0.3,
+          "z": 4
+        },
+        "size": {
+          "x": 4,
+          "y": 0.3,
+          "z": 4
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "594929eb-0bd4-4df4-a07f-6ed24d25a9fb",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalColor": {
+              "b": 254,
+              "g": 219
+            },
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/file/Chapter 5.png",
+              "selector": "editor/Parkour/asset/file/cundangdian.png"
+            },
+            "id": "8426819620528865281"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8320628695808589825",
+        "massCenter": {
+          "x": 16.8712425231934,
+          "y": 46.6442184448242,
+          "z": 19.0384826660156
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "Respawn Point",
+        "position": {
+          "x": 16.8712425231934,
+          "y": 46.6442184448242,
+          "z": 19.0384826660156
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 4,
+          "y": 0.3,
+          "z": 4
+        },
+        "size": {
+          "x": 4,
+          "y": 0.3,
+          "z": 4
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "d86fd61b-cdea-464d-b40d-6800a913b0ab",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalColor": {
+              "b": 254,
+              "g": 219
+            },
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/file/Chapter 5.png",
+              "selector": "editor/Parkour/asset/file/cundangdian.png"
+            },
+            "id": "8426819620531486721"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8320932092523347969",
+        "massCenter": {
+          "x": 16.3552360534668,
+          "y": 54.6129875183105,
+          "z": 16.2438659667969
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "Respawn Point",
+        "position": {
+          "x": 16.3552360534668,
+          "y": 54.6129875183105,
+          "z": 16.2438659667969
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 90
+        },
+        "scale": {
+          "x": 4,
+          "y": 0.3,
+          "z": 4
+        },
+        "size": {
+          "x": 4,
+          "y": 0.3,
+          "z": 4
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "8a0b055f-855d-429d-a500-6dd97fe78066",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalColor": {
+              "b": 254,
+              "g": 219
+            },
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/file/Chapter 5.png",
+              "selector": "editor/Parkour/asset/file/cundangdian.png"
+            },
+            "id": "8426819620534124545"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8320963623960444929",
+        "massCenter": {
+          "x": 16.873025894165,
+          "y": 53.9315147399902,
+          "z": -2.18536043167114
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "Respawn Point",
+        "position": {
+          "x": 16.873025894165,
+          "y": 53.9315147399902,
+          "z": -2.18536043167114
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 90.000015258789
+        },
+        "scale": {
+          "x": 4,
+          "y": 0.706989,
+          "z": 3.99998
+        },
+        "size": {
+          "x": 4,
+          "y": 0.706989288330078,
+          "z": 3.99998354911804
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "cffc07f0-fc13-4ecd-952f-f1fb36f51bce",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/file/Premium.png",
+              "selector": "editor/Parkour/asset/file/start.png"
+            },
+            "id": "8426819620536713217"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8326337725282172929",
+        "massCenter": {
+          "x": 13.027819633484,
+          "y": 31.5,
+          "z": 32.910800933838
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "prepare",
+        "position": {
+          "x": 13.027819633484,
+          "y": 31.5,
+          "z": 32.910800933838
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -90
+        },
+        "scale": {
+          "x": 17.9853,
+          "y": 0.3,
+          "z": 17.5041
+        },
+        "size": {
+          "x": 17.9853,
+          "y": 0.3,
+          "z": 17.5041
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/electricity2",
+        "id": "8329482084295917569",
+        "name": "electricity2",
+        "position": {
+          "x": 16.763107299805,
+          "y": 29.827308654785,
+          "z": -2.8620314598083
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "688d4c96-2196-4b45-a0e0-0375504e0728",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalColor": {
+              "b": 254,
+              "g": 219
+            },
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/file/Chapter 5.png",
+              "selector": "editor/Parkour/asset/file/cundangdian.png"
+            },
+            "id": "8426819620540366849"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8333244967944536065",
+        "massCenter": {
+          "x": 17.8232727050781,
+          "y": 54.8109970092773,
+          "z": -21.969144821167
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "Respawn Point",
+        "position": {
+          "x": 17.8232727050781,
+          "y": 54.8109970092773,
+          "z": -21.969144821167
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": 90.000015258789
+        },
+        "scale": {
+          "x": 4,
+          "y": 0.3,
+          "z": 4
+        },
+        "size": {
+          "x": 4,
+          "y": 0.3,
+          "z": 4
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "0c28a06c-8410-4204-8e82-eff63c5070a5",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalColor": {
+              "b": 254,
+              "g": 219
+            },
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/file/Chapter 5.png",
+              "selector": "editor/Parkour/asset/file/cundangdian.png"
+            },
+            "id": "8426819620543168513"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8333719907733979137",
+        "massCenter": {
+          "x": 19.8221435546875,
+          "y": 55.2294654846191,
+          "z": -63.8062210083008
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "Respawn Point",
+        "position": {
+          "x": 19.8221435546875,
+          "y": 55.2294654846191,
+          "z": -63.8062210083008
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -179.99996948242
+        },
+        "scale": {
+          "x": 4,
+          "y": 0.3,
+          "z": 4
+        },
+        "size": {
+          "x": 4,
+          "y": 0.3,
+          "z": 4
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/fire",
+        "id": "8335071235697016833",
+        "name": "long_fire",
+        "position": {
+          "x": 16.5204410552979,
+          "y": 53.8286895751953,
+          "z": -71.9944610595703
+        },
+        "rotation": {
+          "y": -3.00031280517578
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/fire",
+        "id": "8335127457915125761",
+        "name": "long_fire",
+        "position": {
+          "x": 16.7924213409424,
+          "y": 53.5362854003906,
+          "z": -67.8900833129883
+        },
+        "rotation": {
+          "y": -3.00031280517578
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/fire_time",
+        "id": "8335148158949507073",
+        "name": "fire_time",
+        "position": {
+          "x": 16.3457088470459,
+          "y": 56.4340057373047,
+          "z": -71.9320526123047
+        },
+        "rotation": {
+          "y": 177.00146484375
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/fire_time",
+        "id": "8335163541749547009",
+        "name": "fire_time",
+        "position": {
+          "x": 16.5550403594971,
+          "y": 56.3440017700195,
+          "z": -67.9375152587891
+        },
+        "rotation": {
+          "y": 177.00146484375
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "e22cdd2e-247e-4d10-a353-989219e16088",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalColor": {
+              "b": 254,
+              "g": 219
+            },
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/file/Blue Technology.png",
+              "selector": "editor/Parkour/asset/file/end.png"
+            },
+            "id": "8426819620550213633"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8336145454109048833",
+        "massCenter": {
+          "x": 19.3933086395264,
+          "y": 55.2734336853027,
+          "z": -77.0053329467773
+        },
+        "material": {
+          "color": {
+            "g": 0,
+            "r": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "Destination",
+        "position": {
+          "x": 19.3933086395264,
+          "y": 55.2734336853027,
+          "z": -77.0053329467773
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -179.99996948242
+        },
+        "scale": {
+          "x": 4,
+          "y": 0.3,
+          "z": 4
+        },
+        "size": {
+          "x": 4,
+          "y": 0.3,
+          "z": 4
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "066ffc81-f936-45f7-92db-b45c12c53ab7",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalColor": {
+              "b": 254,
+              "g": 219
+            },
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/file/Chapter 5.png",
+              "selector": "editor/Parkour/asset/file/cundangdian.png"
+            },
+            "id": "8426819620553277441"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8337913991990804481",
+        "massCenter": {
+          "x": 14.7217359542847,
+          "y": 31.5,
+          "z": 7.31888294219971
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "Respawn Point",
+        "position": {
+          "x": 14.7217359542847,
+          "y": 31.5,
+          "z": 7.31888294219971
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -90
+        },
+        "scale": {
+          "x": 3.99996,
+          "y": 0.299995,
+          "z": 6.97087
+        },
+        "size": {
+          "x": 3.99995756149292,
+          "y": 0.299994707107544,
+          "z": 6.97086620330811
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/flag",
+        "id": "8343439399067435009",
+        "name": "flag",
+        "position": {
+          "x": 19.3120708465576,
+          "y": 55.4494514465332,
+          "z": -77.0475540161133
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/electricity",
+        "id": "8343441420116705281",
+        "name": "electricity",
+        "position": {
+          "x": 14.943133354187,
+          "y": 29.75171661377,
+          "z": 2.0716636180878
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/electricity",
+        "id": "8343443880320483329",
+        "name": "electricity",
+        "position": {
+          "x": 14.943133354187,
+          "y": 29.75171661377,
+          "z": -7.6883363723755
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/attacker",
+        "id": "8343450389107884033",
+        "name": "Snow_Monster ",
+        "position": {
+          "x": 11.0962028503418,
+          "y": 54.3762168884277,
+          "z": -51.706974029541
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/attacker",
+        "id": "8343450419102498817",
+        "name": "Snow_Monster ",
+        "position": {
+          "x": 10.8972434997559,
+          "y": 54.3666191101074,
+          "z": -46.0840721130371
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/attacker",
+        "id": "8343450456490213377",
+        "name": "Snow_Monster ",
+        "position": {
+          "x": 27.3231143951416,
+          "y": 54.6097373962402,
+          "z": -51.2893486022949
+        },
+        "rotation": {
+          "y": 90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/attacker",
+        "id": "8343450497531969537",
+        "name": "Snow_Monster ",
+        "position": {
+          "x": 27.2438220977783,
+          "y": 54.6122245788574,
+          "z": -46.3612937927246
+        },
+        "rotation": {
+          "y": 90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/attacker",
+        "id": "8343450537155706881",
+        "name": "Snow_Monster ",
+        "position": {
+          "x": 27.1143741607666,
+          "y": 54.6095390319824,
+          "z": -40.4410057067871
+        },
+        "rotation": {
+          "y": 90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "batchType": "Dynamic",
+        "config": "myplugin/attacker",
+        "id": "8343450576279289857",
+        "name": "Snow_Monster ",
+        "position": {
+          "x": 10.813419342041,
+          "y": 54.3752403259277,
+          "z": -40.3429832458496
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "6215915d-1205-420f-8504-eac5ff6f034f",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalImageType": "2",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/file/MuchaTseBle.png",
+              "selector": "editor/Parkour/asset/file/kaishi.png"
+            },
+            "decalTiling": {
+              "x": 7,
+              "y": 1
+            },
+            "id": "8426819620565008385"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8373178249365618689",
+        "massCenter": {
+          "x": 13.434405326843,
+          "y": 31.5,
+          "z": 20.950248718262
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "StartTimer",
+        "position": {
+          "x": 13.434405326843,
+          "y": 31.5,
+          "z": 20.950248718262
+        },
+        "restitution": 0.3,
+        "rotation": {
+          "y": -90
+        },
+        "scale": {
+          "x": 2.83549,
+          "y": 0.3,
+          "z": 14.2134
+        },
+        "size": {
+          "x": 2.8354871273041,
+          "y": 0.30000001192093,
+          "z": 14.213442802429
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "37a7d402-50d2-438d-abbe-4031372690d5",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalColor": {
+                  "b": 153,
+                  "g": 144,
+                  "r": 144
+                },
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png",
+                  "selector": "editor/Parkour/asset/file/01.png"
+                },
+                "id": "8426819620567973889"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8320596276307902465",
+            "massCenter": {
+              "x": 11.8777294158936,
+              "y": 31.3869934082031,
+              "z": 17.2588710784912
+            },
+            "material": {
+              "color": {
+                "b": 15,
+                "g": 8,
+                "r": 2
+              },
+              "discardAlpha": 1,
+              "texture": "part_boli.tga"
+            },
+            "name": "platform",
+            "position": {
+              "x": 11.8777294158936,
+              "y": 31.3869934082031,
+              "z": 17.2588710784912
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 2.16499,
+              "y": 0.525997,
+              "z": 1.99999
+            },
+            "size": {
+              "x": 2.16498589515686,
+              "y": 0.52599686384201,
+              "z": 1.99998617172241
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "ee023319-5698-4223-ad1c-5d3cb6d3f1d2",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png",
+                  "selector": "editor/Parkour/asset/file/01.png"
+                },
+                "id": "8426819620570775553"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8383245909840723969",
+            "massCenter": {
+              "x": 14.379231452942,
+              "y": 31.5,
+              "z": 13.918869972229
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "platform",
+            "position": {
+              "x": 14.379231452942,
+              "y": 31.5,
+              "z": 13.918869972229
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "e5451a7e-e440-4b46-8f36-18a0de825ba2",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png",
+                  "selector": "editor/Parkour/asset/file/01.png"
+                },
+                "id": "8426819620573331457"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8383246009669124097",
+            "massCenter": {
+              "x": 17.24923324585,
+              "y": 31.5,
+              "z": 11.098871231079
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "platform",
+            "position": {
+              "x": 17.24923324585,
+              "y": 31.5,
+              "z": 11.098871231079
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "b0267911-3abe-4461-bb2f-9f1393eca632",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png",
+                  "selector": "editor/Parkour/asset/file/01.png"
+                },
+                "id": "8809253340565176321"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8809253340567273473",
+            "massCenter": {
+              "x": 17.306224822998,
+              "y": 31.5,
+              "z": 17.2508583068848
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1,
+              "texture": "part_boli.tga"
+            },
+            "name": "platform",
+            "position": {
+              "x": 17.306224822998,
+              "y": 31.5,
+              "z": 17.2508583068848
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "1f59e716-15ef-4f04-83fb-403cbde079a9",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png",
+                  "selector": "editor/Parkour/asset/file/01.png"
+                },
+                "id": "8809495758823686145"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.15,
+            "id": "8809495758825799681",
+            "massCenter": {
+              "x": 11.92822265625,
+              "y": 31.5,
+              "z": 11.2038583755493
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1,
+              "texture": "part_boli.tga"
+            },
+            "name": "platform",
+            "position": {
+              "x": 11.92822265625,
+              "y": 31.5,
+              "z": 11.2038583755493
+            },
+            "restitution": 0.18,
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8412654413701218305",
+        "name": " Jumping Platform",
+        "position": {
+          "x": 14.524231433868,
+          "y": 31.5,
+          "z": 14.178871154785
+        },
+        "scale": {
+          "x": 7.45,
+          "y": 0.299999,
+          "z": 8.16
+        },
+        "size": {
+          "x": 7.4500036239624,
+          "y": 0.29999923706055,
+          "z": 8.1599998474121
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "e15e7cd4-3120-4a89-a03e-d0395878a3da",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png"
+                },
+                "id": "8809402323693060097"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalTexture": {
+                  "asset": "asset/file/Premium.png"
+                },
+                "id": "8809402520734400513"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8329476592690200577",
+            "massCenter": {
+              "x": 13.609125137329,
+              "y": 31.840002059937,
+              "z": -7.6345815658569
+            },
+            "material": {
+              "color": {
+                "b": 79,
+                "g": 43,
+                "r": 9
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 13.609125137329,
+              "y": 31.840002059937,
+              "z": -7.6345815658569
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "size": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "1cc37593-d774-4b57-907d-98d01e8b9931",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Chapter 5.png",
+                  "selector": "editor/Parkour/asset/file/dianliu.png"
+                },
+                "id": "8426819620579295233"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8320512185189007361",
+            "massCenter": {
+              "x": 15.949234008789,
+              "y": 31.5,
+              "z": -2.8551845550537
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "platform",
+            "position": {
+              "x": 15.949234008789,
+              "y": 31.5,
+              "z": -2.8551845550537
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 13.6017
+            },
+            "size": {
+              "x": 2,
+              "y": 0.30000001192093,
+              "z": 13.601675033569
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "f80d8956-4b68-4cf3-8a63-b6d1d39a3f97",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png"
+                },
+                "id": "8809401306446659585"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "1",
+                "decalTexture": {
+                  "asset": "asset/file/Premium.png"
+                },
+                "id": "8809401601291010049"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8329476592687104001",
+            "massCenter": {
+              "x": 18.029140472412,
+              "y": 31.840002059937,
+              "z": -7.6345815658569
+            },
+            "material": {
+              "color": {
+                "b": 55,
+                "g": 18,
+                "r": 3
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 18.029140472412,
+              "y": 31.840002059937,
+              "z": -7.6345815658569
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "size": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "useAnchor": true,
+            "useCollide": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "a79818c7-d85e-462d-b0fe-ec2017c4c294",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8320515476837875713",
+            "massCenter": {
+              "x": 15.949234008789,
+              "y": 31.799999237061,
+              "z": -7.4421606063843
+            },
+            "material": {
+              "alpha": 0,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 174
+              },
+              "discardAlpha": 1
+            },
+            "name": "kill",
+            "position": {
+              "x": 15.949234008789,
+              "y": 31.799999237061,
+              "z": -7.4421606063843
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 0.509031
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 0.509031
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "69878b26-e7f6-42db-bbe9-4defa92938bb",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png"
+                },
+                "id": "8809403256246026241"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "1",
+                "decalTexture": {
+                  "asset": "asset/file/Premium.png"
+                },
+                "id": "8809404089831948289"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8329482883266363393",
+            "massCenter": {
+              "x": 18.092769622803,
+              "y": 31.840002059937,
+              "z": -4.0759983062744
+            },
+            "material": {
+              "color": {
+                "b": 62,
+                "g": 17,
+                "r": 3
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 18.092769622803,
+              "y": 31.840002059937,
+              "z": -4.0759983062744
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -4.2388660403958e-06,
+              "y": 45,
+              "z": 4.3257332436042e-06
+            },
+            "scale": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "size": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "useAnchor": true,
+            "useCollide": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "ef74ac4d-c582-4ae4-ab04-2dd8f74661c5",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8320515719770030081",
+            "massCenter": {
+              "x": 16.417474746704,
+              "y": 31.799999237061,
+              "z": -2.5346488952637
+            },
+            "material": {
+              "alpha": 0,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 174
+              },
+              "discardAlpha": 1
+            },
+            "name": "kill",
+            "position": {
+              "x": 16.417474746704,
+              "y": 31.799999237061,
+              "z": -2.5346488952637
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 45
+            },
+            "scale": {
+              "y": 0.3,
+              "z": 0.454774
+            },
+            "size": {
+              "y": 0.3,
+              "z": 0.454774
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "73e423e1-4c3e-4521-98e4-c769177cdd0c",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8320514620712386561",
+            "massCenter": {
+              "x": 15.518239974976,
+              "y": 31.799999237061,
+              "z": -1.5221042633057
+            },
+            "material": {
+              "alpha": 0,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 174
+              },
+              "discardAlpha": 1
+            },
+            "name": "kill",
+            "position": {
+              "x": 15.518239974976,
+              "y": 31.799999237061,
+              "z": -1.5221042633057
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 45
+            },
+            "scale": {
+              "y": 0.3,
+              "z": 0.43553
+            },
+            "size": {
+              "y": 0.3,
+              "z": 0.43553
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "ba39ed61-04d3-4a42-9280-006ab88a4d64",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png"
+                },
+                "id": "8809404475514273793"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "2",
+                "decalTexture": {
+                  "asset": "asset/file/Premium.png"
+                },
+                "id": "8809404878875410433"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8329482883263479809",
+            "massCenter": {
+              "x": 13.647343635559,
+              "y": 31.840007781982,
+              "z": 0.22238349914551
+            },
+            "material": {
+              "color": {
+                "b": 62,
+                "g": 17,
+                "r": 3
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 13.647343635559,
+              "y": 31.840007781982,
+              "z": 0.22238349914551
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -4.6217028284445e-06,
+              "y": -45,
+              "z": -7.4256245170545e-06
+            },
+            "scale": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "size": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "6d51a263-da9f-4835-b6eb-4a0451481d7f",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalTexture": {
+                  "asset": "asset/file/Premium.png"
+                },
+                "id": "8809391694550974465"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png"
+                },
+                "id": "8809392286653612033"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8329475915763793921",
+            "massCenter": {
+              "x": 13.609125137329,
+              "y": 31.840002059937,
+              "z": 2.1554355621338
+            },
+            "material": {
+              "color": {
+                "b": 68,
+                "g": 36,
+                "r": 6
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 13.609125137329,
+              "y": 31.840002059937,
+              "z": 2.1554355621338
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "size": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "208bf5d6-9cf7-4c98-a38d-f0daa8e6bd6c",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png"
+                },
+                "id": "8809385482711187457"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "1",
+                "decalTexture": {
+                  "asset": "asset/file/Premium.png"
+                },
+                "id": "8809386463432835073"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8329475915760861185",
+            "massCenter": {
+              "x": 18.029140472412,
+              "y": 31.840002059937,
+              "z": 2.1554355621338
+            },
+            "material": {
+              "color": {
+                "b": 76,
+                "g": 43,
+                "r": 8
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 18.029140472412,
+              "y": 31.840002059937,
+              "z": 2.1554355621338
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "size": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "useAnchor": true,
+            "useCollide": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "8a66512f-f579-49c0-bc2a-bc04b123089f",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8337946120580415489",
+            "massCenter": {
+              "x": 15.949234008789,
+              "y": 31.799999237061,
+              "z": 2.2978398799896
+            },
+            "material": {
+              "alpha": 0,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 174
+              },
+              "discardAlpha": 1
+            },
+            "name": "kill",
+            "position": {
+              "x": 15.949234008789,
+              "y": 31.799999237061,
+              "z": 2.2978398799896
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 0.509031
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 0.509031
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8412654843867185153",
+        "name": "Electric Power Device",
+        "position": {
+          "x": 15.870056629181,
+          "y": 31.720004081726,
+          "z": -2.8551845550537
+        },
+        "scale": {
+          "x": 5.15253,
+          "y": 0.740007,
+          "z": 13.6017
+        },
+        "size": {
+          "x": 5.152533531189,
+          "y": 0.7400074005127,
+          "z": 13.601699829102
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "2699210d-9cab-46b4-82f8-bc15707afab8",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/grunge background  for free.jpg"
+                },
+                "id": "8809379879847247873"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8320584303153119233",
+            "massCenter": {
+              "x": 10.1507520675659,
+              "y": 39.7439918518066,
+              "z": -22.7787437438965
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "Flash",
+            "position": {
+              "x": 10.1507520675659,
+              "y": 39.7439918518066,
+              "z": -22.7787437438965
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 86.0000305175781
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "b8b977ec-8f72-4dc0-b081-c5fc63242b48",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/grunge background  for free.jpg"
+                },
+                "id": "8809380576751812609"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8321166242828812289",
+            "massCenter": {
+              "x": 11.472710609436,
+              "y": 40.0439949035645,
+              "z": -20.1801910400391
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "Flash",
+            "position": {
+              "x": 11.472710609436,
+              "y": 40.0439949035645,
+              "z": -20.1801910400391
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 86.0000305175781
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "903caea4-674b-491c-93c0-15fb038224de",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/grunge background  for free.jpg"
+                },
+                "id": "8809380902439469057"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8321166474550427649",
+            "massCenter": {
+              "x": 8.8438777923584,
+              "y": 40.7939758300781,
+              "z": -18.1385879516602
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "Flash",
+            "position": {
+              "x": 8.8438777923584,
+              "y": 40.7939758300781,
+              "z": -18.1385879516602
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 86.0000305175781
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8412655232709722113",
+        "name": "Jumping Platform",
+        "position": {
+          "x": 10.2454881668091,
+          "y": 40.268985748291,
+          "z": -20.4063491821289
+        },
+        "rotation": {
+          "y": 86.0000305175781
+        },
+        "size": {
+          "x": 6.7200059890747,
+          "y": 1.3499870300293,
+          "z": 4.4800109863281
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "5368528f-62b5-4413-bfc3-2e0b8cb367f0",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/rdd.png",
+                  "selector": "editor/Parkour/asset/file/qianjin.png"
+                },
+                "id": "8426819620612046849"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8326562429241524225",
+            "lineVelocity": {
+              "z": 3
+            },
+            "massCenter": {
+              "x": 11.1768026351929,
+              "y": 41.4071578979492,
+              "z": -7.55869340896606
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "after",
+            "position": {
+              "x": 11.1768026351929,
+              "y": 41.4071578979492,
+              "z": -7.55869340896606
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 9.73507595062256,
+              "y": -176.182281494141,
+              "z": 1.05117440223694
+            },
+            "scale": {
+              "x": 3.26614,
+              "y": 0.188583,
+              "z": 7.9362
+            },
+            "size": {
+              "x": 3.26614022254944,
+              "y": 0.188582718372345,
+              "z": 7.93620014190674
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "angleVelocity": {
+              "z": 4
+            },
+            "batchType": "Dynamic",
+            "btsKey": "6476dbc9-c3d2-4a01-af81-ba8f7b878a42",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/MuchaTseBle.png",
+                  "selector": "editor/Parkour/asset/file/qianjin.png"
+                },
+                "id": "8426819620614684673"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8326564689507581953",
+            "massCenter": {
+              "x": 11.4137172698975,
+              "y": 43.0672607421875,
+              "z": 1.87944757938385
+            },
+            "material": {
+              "alpha": 0.9,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "before",
+            "position": {
+              "x": 11.4137172698975,
+              "y": 43.0672607421875,
+              "z": 1.87944757938385
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 1.24529683589935,
+              "y": 89.8697967529297,
+              "z": -11.9361553192139
+            },
+            "scale": {
+              "x": 10,
+              "y": 0.3,
+              "z": 3.10933
+            },
+            "size": {
+              "x": 10,
+              "y": 0.30000001192093,
+              "z": 3.1093266010284
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "9b3afbdc-4596-4a39-afe4-2e2b82663ce8",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalAlpha": 2,
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/MuchaTseBle.png",
+                  "selector": "editor/Parkour/asset/file/qianjin.png"
+                },
+                "id": "8426819620617289729"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8333744798540857345",
+            "lineVelocity": {
+              "z": 4
+            },
+            "massCenter": {
+              "x": 11.5911235809326,
+              "y": 44.9169235229492,
+              "z": 10.6479873657227
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "left",
+            "position": {
+              "x": 11.5911235809326,
+              "y": 44.9169235229492,
+              "z": 10.6479873657227
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 11.9332895278931,
+              "y": -179.866943359375,
+              "z": 1.27281081676483
+            },
+            "scale": {
+              "x": 5.99999,
+              "y": 0.3,
+              "z": 3.15015
+            },
+            "size": {
+              "x": 5.9999914169312,
+              "y": 0.30000001192093,
+              "z": 3.1501514911652
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "c3c73c4d-8a1a-4f06-8310-37d37302f738",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/MuchaTseBle.png",
+                  "selector": "editor/Parkour/asset/file/qianjin.png"
+                },
+                "id": "8426819620619829249"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8333760649970221057",
+            "lineVelocity": {
+              "z": -4
+            },
+            "massCenter": {
+              "x": 11.6690559387207,
+              "y": 45.558780670166,
+              "z": 15.3851947784424
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "right",
+            "position": {
+              "x": 11.6690559387207,
+              "y": 45.558780670166,
+              "z": 15.3851947784424
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -11.9332895278931,
+              "y": 0.133022591471672,
+              "z": -1.27280616760254
+            },
+            "scale": {
+              "x": 5.99999,
+              "y": 0.3,
+              "z": 2.99295
+            },
+            "size": {
+              "x": 5.9999914169312,
+              "y": 0.30000001192093,
+              "z": 2.9929487705231
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8412655359098044417",
+        "name": "Conveyor Belt",
+        "position": {
+          "x": 11.6068649291992,
+          "y": 43.1237602233887,
+          "z": 3.0133318901062
+        },
+        "rotation": {
+          "x": 1.24529683589935,
+          "y": 89.8697967529297,
+          "z": -11.9361543655396
+        },
+        "size": {
+          "x": 28.209140777588,
+          "y": 0.65000534057617,
+          "z": 6.0747156143188
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "51ae4786-387e-450b-84ce-cc94f9b55410",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/03.png",
+                  "selector": "editor/Parkour/asset/file/03.png"
+                },
+                "id": "8426819620623335425"
+              }
+            ],
+            "density": 2.2,
+            "id": "8320891304534573057",
+            "lineVelocity": {
+              "y": 20,
+              "z": 60
+            },
+            "massCenter": {
+              "x": 20.371265411377,
+              "y": 47.0144386291504,
+              "z": 17.1070671081543
+            },
+            "material": {
+              "color": {
+                "r": 170
+              },
+              "discardAlpha": 1
+            },
+            "name": "Trampoline",
+            "position": {
+              "x": 20.371265411377,
+              "y": 47.0144386291504,
+              "z": 17.1070671081543
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 42.000003814697
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "235e0a71-29f9-492c-b666-4da5179a2d05",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/03.png",
+                  "selector": "editor/Parkour/asset/file/03.png"
+                },
+                "id": "8426819620625907713"
+              }
+            ],
+            "density": 2.2,
+            "id": "8320891088108503041",
+            "lineVelocity": {
+              "y": 20,
+              "z": -60
+            },
+            "massCenter": {
+              "x": 23.0612640380859,
+              "y": 46.1910209655762,
+              "z": 20.6714668273926
+            },
+            "material": {
+              "color": {
+                "r": 170
+              },
+              "discardAlpha": 1
+            },
+            "name": "Trampoline",
+            "position": {
+              "x": 23.0612640380859,
+              "y": 46.1910209655762,
+              "z": 20.6714668273926
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -41.999996185303
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8412655795455852545",
+        "name": "Trampoline",
+        "position": {
+          "x": 21.7162628173828,
+          "y": 46.6027297973633,
+          "z": 18.8892669677734
+        },
+        "size": {
+          "x": 4.689998626709,
+          "y": 2.3846282958984,
+          "z": 5.2514295578003
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "8f74dab0-8805-4ec0-8cb5-5fa4c5d1cc43",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Premium.png"
+                },
+                "id": "8809711953651236865"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8320958761840738305",
+            "massCenter": {
+              "x": 18.9032974243164,
+              "y": 53.3249778747559,
+              "z": 11.456844329834
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "whirl",
+            "position": {
+              "x": 18.9032974243164,
+              "y": 53.3249778747559,
+              "z": 11.456844329834
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 6,
+              "y": 0.3,
+              "z": 6
+            },
+            "shape": "3",
+            "size": {
+              "x": 6,
+              "y": 0.3,
+              "z": 6
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "c2f369cb-6cfd-489c-af8f-50227a6768f8",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_HingeConstraint",
+                "id": "8320958761841000449",
+                "motorForce": 30,
+                "motorTargetAngleVelocity": -250,
+                "slavePartID": "8320958761840738305",
+                "slavePartName": "whirl",
+                "useMotor": true
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8320958761840066561",
+            "massCenter": {
+              "x": 18.9032974243164,
+              "y": 51.5249824523926,
+              "z": 11.456844329834
+            },
+            "material": {
+              "alpha": 0,
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 18.9032974243164,
+              "y": 51.5249824523926,
+              "z": 11.456844329834
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 4,
+              "y": 0.3,
+              "z": 4
+            },
+            "size": {
+              "x": 4,
+              "y": 0.3,
+              "z": 4
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "dde2c313-bae4-4f2a-9d17-19298230bbfd",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Premium.png"
+                },
+                "id": "8809712721073029121"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8320887785898082305",
+            "massCenter": {
+              "x": 18.9032974243164,
+              "y": 53.3249778747559,
+              "z": 4.2568531036377
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1,
+              "offset": {
+                "x": 2
+              }
+            },
+            "name": "whirl",
+            "position": {
+              "x": 18.9032974243164,
+              "y": 53.3249778747559,
+              "z": 4.2568531036377
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 6,
+              "y": 0.3,
+              "z": 6
+            },
+            "shape": "3",
+            "size": {
+              "x": 6,
+              "y": 0.3,
+              "z": 6
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "206ee000-abf2-45d5-be39-d221736fa524",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_HingeConstraint",
+                "id": "8320951564957368321",
+                "motorForce": 30,
+                "motorTargetAngleVelocity": 250,
+                "slavePartID": "8320887785898082305",
+                "slavePartName": "whirl",
+                "useMotor": true
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8320947108698144769",
+            "massCenter": {
+              "x": 18.9032974243164,
+              "y": 51.5249824523926,
+              "z": 4.2568531036377
+            },
+            "material": {
+              "alpha": 0,
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 18.9032974243164,
+              "y": 51.5249824523926,
+              "z": 4.2568531036377
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 4,
+              "y": 0.3,
+              "z": 4
+            },
+            "size": {
+              "x": 4,
+              "y": 0.3,
+              "z": 4
+            },
+            "useAnchor": true,
+            "useCollide": false,
+            "useGravity": false
+          }
+        ],
+        "id": "8412656066324791297",
+        "name": " Turntable",
+        "position": {
+          "x": 18.9032974243164,
+          "y": 52.4249801635742,
+          "z": 7.85684823989868
+        },
+        "size": {
+          "x": 6,
+          "y": 2.0999984741211,
+          "z": 13.199991226196
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "2cd8b884-c4dc-4cd9-9c81-002e55f5c692",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8333269533922918401",
+            "massCenter": {
+              "x": 16.3188152313232,
+              "y": 54.1975746154785,
+              "z": -12.4748754501343
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 16.3188152313232,
+              "y": 54.1975746154785,
+              "z": -12.4748754501343
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -0.777140080928802,
+              "y": 89.9961395263672,
+              "z": 4.62919616699219
+            },
+            "scale": {
+              "x": 9.00362,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 9.00362,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true,
+            "useCollide": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "1d7ec4bf-d656-4294-a483-dedc1c79dafd",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/rd.png",
+                  "selector": "editor/Parkour/asset/file/guoqiao.png"
+                },
+                "id": "8426819620645519361"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8333262870487547905",
+            "massCenter": {
+              "x": 17.8126640319824,
+              "y": 54.6902122497559,
+              "z": -18.3081531524658
+            },
+            "material": {
+              "color": {
+                "b": 203,
+                "g": 197,
+                "r": 79
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 17.8126640319824,
+              "y": 54.6902122497559,
+              "z": -18.3081531524658
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 0.777141630649567,
+              "y": -90.0038299560547,
+              "z": -4.62919569015503
+            },
+            "scale": {
+              "x": 2.71416,
+              "y": 0.3,
+              "z": 5
+            },
+            "size": {
+              "x": 2.71416,
+              "y": 0.3,
+              "z": 5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "c8709b9c-8819-4ef1-8bed-f7925b3acd08",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8333271579520040961",
+            "massCenter": {
+              "x": 19.3185405731201,
+              "y": 54.2382698059082,
+              "z": -12.4746713638306
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 19.3185405731201,
+              "y": 54.2382698059082,
+              "z": -12.4746713638306
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -0.777140080928802,
+              "y": 89.9961395263672,
+              "z": 4.62919616699219
+            },
+            "scale": {
+              "x": 9.00362,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 9.00362,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "989e4231-4761-41bf-ad86-79c7716c0113",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "1",
+                "decalTexture": {
+                  "asset": "asset/file/grunge background  for free.jpg"
+                },
+                "id": "8809715322609254401"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8333257983889031169",
+            "massCenter": {
+              "x": 16.2887344360352,
+              "y": 55.9646453857422,
+              "z": -7.66169404983521
+            },
+            "material": {
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 16.2887344360352,
+              "y": 55.9646453857422,
+              "z": -7.66169404983521
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -0.777140140533447,
+              "y": 89.9961395263672,
+              "z": 4.62919664382935
+            },
+            "scale": {
+              "x": 0.3,
+              "y": 4,
+              "z": 2
+            },
+            "size": {
+              "x": 0.3,
+              "y": 4,
+              "z": 2
+            },
+            "useAnchor": true,
+            "useCollide": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "0ca3ec6b-6930-4d0b-afa9-2f8e38820aff",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalImageType": "2",
+                "decalSurface": "1",
+                "decalTexture": {
+                  "asset": "asset/file/Sci Fi.jpg"
+                },
+                "decalTiling": {
+                  "x": 1,
+                  "y": 3
+                },
+                "id": "8809731982205206529"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8333259438811447297",
+            "massCenter": {
+              "x": 17.7885932922363,
+              "y": 55.984992980957,
+              "z": -7.66159200668335
+            },
+            "material": {
+              "color": {
+                "b": 36,
+                "g": 53,
+                "r": 64
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 17.7885932922363,
+              "y": 55.984992980957,
+              "z": -7.66159200668335
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -0.777140140533447,
+              "y": 89.9961395263672,
+              "z": 4.62919664382935
+            },
+            "scale": {
+              "x": 0.3,
+              "y": 4
+            },
+            "size": {
+              "x": 0.3,
+              "y": 4
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "5e8fcb62-ec68-46af-9821-a0340f386a2b",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "1",
+                "decalTexture": {
+                  "asset": "asset/file/grunge background  for free.jpg"
+                },
+                "id": "8809715986741772289"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8333260454540443649",
+            "massCenter": {
+              "x": 19.2884559631348,
+              "y": 56.0053405761719,
+              "z": -7.66148996353149
+            },
+            "material": {
+              "color": {
+                "b": 230,
+                "r": 189
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 19.2884559631348,
+              "y": 56.0053405761719,
+              "z": -7.66148996353149
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -0.777140140533447,
+              "y": 89.9961395263672,
+              "z": 4.62919664382935
+            },
+            "scale": {
+              "x": 0.3,
+              "y": 4,
+              "z": 2
+            },
+            "size": {
+              "x": 0.3,
+              "y": 4,
+              "z": 2
+            },
+            "useAnchor": true,
+            "useCollide": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "9712f2fb-1bbb-45bd-87fc-d449529eb7ba",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/MuchaTseBle.png",
+                  "selector": "editor/Parkour/asset/file/guoqiao.png"
+                },
+                "id": "8426819620657446913"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8333256221085384705",
+            "massCenter": {
+              "x": 21.2257175445557,
+              "y": 54.3420677185059,
+              "z": -5.62610912322998
+            },
+            "material": {
+              "color": {
+                "b": 41,
+                "g": 78,
+                "r": 92
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 21.2257175445557,
+              "y": 54.3420677185059,
+              "z": -5.62610912322998
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -0.777140080928802,
+              "y": 89.9961395263672,
+              "z": 4.62919664382935
+            },
+            "scale": {
+              "x": 2.99998,
+              "y": 0.229308,
+              "z": 1.39538
+            },
+            "size": {
+              "x": 2.99997878074646,
+              "y": 0.229308038949966,
+              "z": 1.39537787437439
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "40099870-86e0-4972-af45-48ab6c56a813",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalImageType": "2",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/MuchaTseBle.png",
+                  "selector": "editor/Parkour/asset/file/guoqiao.png"
+                },
+                "decalTiling": {
+                  "x": 3,
+                  "y": 3
+                },
+                "id": "8809716334591901697"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8809716334606106625",
+            "massCenter": {
+              "x": 17.8164405822754,
+              "y": 54.3523330688477,
+              "z": -6.45273923873901
+            },
+            "material": {
+              "color": {
+                "b": 203,
+                "g": 197,
+                "r": 79
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 17.8164405822754,
+              "y": 54.3523330688477,
+              "z": -6.45273923873901
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -0.777140080928802,
+              "y": 89.9961395263672,
+              "z": 4.62919664382935
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.3,
+              "z": 5
+            },
+            "size": {
+              "x": 3,
+              "y": 0.3,
+              "z": 5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "590c5802-2c90-49bc-99e0-45b188795d6e",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/MuchaTseBle.png",
+                  "selector": "editor/Parkour/asset/file/guoqiao.png"
+                },
+                "id": "8809717962017341441"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8809717962020880385",
+            "massCenter": {
+              "x": 13.8494024276733,
+              "y": 54.2420310974121,
+              "z": -5.62660598754883
+            },
+            "material": {
+              "color": {
+                "b": 203,
+                "g": 197,
+                "r": 79
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 13.8494024276733,
+              "y": 54.2420310974121,
+              "z": -5.62660598754883
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -0.777140080928802,
+              "y": 89.9961395263672,
+              "z": 4.62919664382935
+            },
+            "scale": {
+              "x": 2.99998,
+              "y": 0.229308,
+              "z": 1.39538
+            },
+            "size": {
+              "x": 2.99997878074646,
+              "y": 0.229308038949966,
+              "z": 1.39537787437439
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8412656393346596865",
+        "name": "Security Door Trap",
+        "position": {
+          "x": 17.7888870239258,
+          "y": 56.1991539001465,
+          "z": -12.164852142334
+        },
+        "rotation": {
+          "x": -4.62879753112793,
+          "y": -179.940963745117,
+          "z": -0.779751479625702
+        },
+        "size": {
+          "x": 5.005786895752,
+          "y": 4.3000030517578,
+          "z": 14.717073440552
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "cd0e1b69-2162-4071-92e3-a88797374f74",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalImageType": "2",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png",
+                  "selector": "editor/Parkour/asset/file/qianjin.png"
+                },
+                "decalTiling": {
+                  "x": 1,
+                  "y": 5
+                },
+                "id": "8426819620661182465"
+              }
+            ],
+            "density": 2.2,
+            "id": "8383277325720190977",
+            "lineVelocity": {
+              "z": -2.5
+            },
+            "massCenter": {
+              "x": 18.7081356048584,
+              "y": 54.911994934082,
+              "z": -34.396785736084
+            },
+            "material": {
+              "color": {
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "after",
+            "position": {
+              "x": 18.7081356048584,
+              "y": 54.911994934082,
+              "z": -34.396785736084
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -90.000030517578
+            },
+            "scale": {
+              "x": 18.0138,
+              "y": 0.2,
+              "z": 3.90226
+            },
+            "size": {
+              "x": 18.013830184937,
+              "y": 0.20000000298023,
+              "z": 3.9022641181946
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "1f3fd0bc-dca4-468d-a912-09368293de90",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalColor": {
+                  "b": 254,
+                  "g": 219
+                },
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png",
+                  "selector": "editor/Parkour/asset/file/jinengdian.png"
+                },
+                "id": "8426819620663771137"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8383274251504517121",
+            "massCenter": {
+              "x": 27.2774085998535,
+              "y": 54.5120010375977,
+              "z": -40.6726493835449
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "brick",
+            "position": {
+              "x": 27.2774085998535,
+              "y": 54.5120010375977,
+              "z": -40.6726493835449
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.3,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.3,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "202373e1-1a87-4ba5-ae93-02f836be8c82",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalColor": {
+                  "b": 254,
+                  "g": 219
+                },
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png",
+                  "selector": "editor/Parkour/asset/file/jinengdian.png"
+                },
+                "id": "8426819620666327041"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8383274441580052481",
+            "massCenter": {
+              "x": 10.5474081039429,
+              "y": 54.2920112609863,
+              "z": -40.4526596069336
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "brick",
+            "position": {
+              "x": 10.5474081039429,
+              "y": 54.2920112609863,
+              "z": -40.4526596069336
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.3,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.3,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "22691268-d158-4a72-b60a-eb0f7d575ce3",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalColor": {
+                  "b": 254,
+                  "g": 219
+                },
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png",
+                  "selector": "editor/Parkour/asset/file/jinengdian.png"
+                },
+                "id": "8426819620668899329"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8383274100884832257",
+            "massCenter": {
+              "x": 27.2774085998535,
+              "y": 54.5120010375977,
+              "z": -46.3926429748535
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "brick",
+            "position": {
+              "x": 27.2774085998535,
+              "y": 54.5120010375977,
+              "z": -46.3926429748535
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.3,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.3,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "88e0c1de-15b1-4627-b59d-818953e5f925",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalColor": {
+                  "b": 254,
+                  "g": 219
+                },
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png",
+                  "selector": "editor/Parkour/asset/file/jinengdian.png"
+                },
+                "id": "8426819620671455233"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8383274441566633985",
+            "massCenter": {
+              "x": 10.5474081039429,
+              "y": 54.2920112609863,
+              "z": -46.2626495361328
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "brick",
+            "position": {
+              "x": 10.5474081039429,
+              "y": 54.2920112609863,
+              "z": -46.2626495361328
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.3,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.3,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "3bf19b9d-ad2f-416d-a61e-0535890be401",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalImageType": "2",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/rdr.png",
+                  "selector": "editor/Parkour/asset/file/qianjin.png"
+                },
+                "decalTiling": {
+                  "x": 1,
+                  "y": 3
+                },
+                "id": "8426819620674027521"
+              }
+            ],
+            "density": 2.2,
+            "id": "8383276691361693697",
+            "lineVelocity": {
+              "z": -2.5
+            },
+            "massCenter": {
+              "x": 18.7081356048584,
+              "y": 54.911994934082,
+              "z": -53.4256439208984
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "after",
+            "position": {
+              "x": 18.7081356048584,
+              "y": 54.911994934082,
+              "z": -53.4256439208984
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -90.000030517578
+            },
+            "scale": {
+              "x": 16.3162,
+              "y": 0.2,
+              "z": 3.90227
+            },
+            "size": {
+              "x": 16.316215515137,
+              "y": 0.20000000298023,
+              "z": 3.9022710323334
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "256376a2-7a94-4a6d-84bd-3597906662dc",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalColor": {
+                  "b": 254,
+                  "g": 219
+                },
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png",
+                  "selector": "editor/Parkour/asset/file/jinengdian.png"
+                },
+                "id": "8426819620677009409"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8333670195985006593",
+            "massCenter": {
+              "x": 27.2774085998535,
+              "y": 54.5120010375977,
+              "z": -51.3926467895508
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "brick",
+            "position": {
+              "x": 27.2774085998535,
+              "y": 54.5120010375977,
+              "z": -51.3926467895508
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.3,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.3,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "05bb552a-337c-4fa4-b428-2dfb5f61e063",
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8333717069248397313",
+            "massCenter": {
+              "x": 18.6785640716553,
+              "y": 55.4523391723633,
+              "z": -50.4674530029297
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1,
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": 18.6785640716553,
+              "y": 55.4523391723633,
+              "z": -50.4674530029297
+            },
+            "restitution": 0.2,
+            "scale": {
+              "x": 3.95628,
+              "y": 0.887868,
+              "z": 0.3
+            },
+            "size": {
+              "x": 3.95628,
+              "y": 0.887868,
+              "z": 0.3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "a62ca77d-fb90-4bc9-9c4d-4a3320eceea2",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalColor": {
+                  "b": 254,
+                  "g": 219
+                },
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png",
+                  "selector": "editor/Parkour/asset/file/jinengdian.png"
+                },
+                "id": "8426819620682022913"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8383274441573220353",
+            "massCenter": {
+              "x": 10.5474081039429,
+              "y": 54.2920112609863,
+              "z": -51.7426452636719
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "brick",
+            "position": {
+              "x": 10.5474081039429,
+              "y": 54.2920112609863,
+              "z": -51.7426452636719
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -90
+            },
+            "scale": {
+              "x": 3,
+              "y": 0.3,
+              "z": 3
+            },
+            "size": {
+              "x": 3,
+              "y": 0.3,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "b661c5ec-7e4a-4371-a67e-a70be33b0252",
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8333719611470823425",
+            "massCenter": {
+              "x": 18.6785640716553,
+              "y": 55.4523391723633,
+              "z": -55.4674530029297
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1,
+              "texture": "part_bingkuai.tga"
+            },
+            "position": {
+              "x": 18.6785640716553,
+              "y": 55.4523391723633,
+              "z": -55.4674530029297
+            },
+            "restitution": 0.2,
+            "scale": {
+              "x": 3.95628,
+              "y": 0.887868,
+              "z": 0.3
+            },
+            "size": {
+              "x": 3.95628,
+              "y": 0.887868,
+              "z": 0.3
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8412656605064151041",
+        "name": "Snow Monster ",
+        "position": {
+          "x": 18.9124088287354,
+          "y": 55.0191421508789,
+          "z": -43.48681640625
+        },
+        "size": {
+          "x": 19.730003356934,
+          "y": 1.754264831543,
+          "z": 36.193855285645
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "202ae56f-46e8-47b1-b132-9fa348896eca",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalImageType": "2",
+                "decalSurface": "5",
+                "decalTexture": {
+                  "asset": "asset/file/Premium.png"
+                },
+                "decalTiling": {
+                  "x": 1,
+                  "y": 4
+                },
+                "id": "8809754972614033409"
+              }
+            ],
+            "density": 0.9,
+            "friction": 0.022,
+            "id": "8329310509256687617",
+            "massCenter": {
+              "x": 16.4487915039062,
+              "y": 56.1210136413574,
+              "z": -69.8797225952148
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1,
+              "texture": "part_bingkuai.tga"
+            },
+            "name": "wall",
+            "position": {
+              "x": 16.4487915039062,
+              "y": 56.1210136413574,
+              "z": -69.8797225952148
+            },
+            "restitution": 0.2,
+            "rotation": {
+              "x": 90,
+              "y": -86.9999618530273
+            },
+            "scale": {
+              "x": 5.09931,
+              "y": 0.199997,
+              "z": 1.40705
+            },
+            "size": {
+              "x": 5.09931,
+              "y": 0.199997,
+              "z": 1.40705
+            },
+            "useAnchor": true,
+            "useCollide": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "b4ef72b4-780d-414f-8c0e-fff735d85a18",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/MuchaTseBle.png",
+                  "selector": "editor/Parkour/asset/file/penhuo.png"
+                },
+                "id": "8426819620690493441"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8329309534326112257",
+            "massCenter": {
+              "x": 19.4370250701904,
+              "y": 55.3474960327148,
+              "z": -70.2672424316406
+            },
+            "material": {
+              "color": {
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "platform",
+            "position": {
+              "x": 19.4370250701904,
+              "y": 55.3474960327148,
+              "z": -70.2672424316406
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 92.9999923706055
+            },
+            "scale": {
+              "x": 7.67017,
+              "y": 0.2,
+              "z": 3
+            },
+            "size": {
+              "x": 7.67017,
+              "y": 0.2,
+              "z": 3
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "ea914e84-ae7c-48d7-9483-a094307f4a9e",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8383282751448645633",
+            "massCenter": {
+              "x": 19.364616394043,
+              "y": 55.6937408447266,
+              "z": -72.0510787963867
+            },
+            "material": {
+              "alpha": 0,
+              "color": {
+                "b": 0
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 19.364616394043,
+              "y": 55.6937408447266,
+              "z": -72.0510787963867
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 92.9999923706055
+            },
+            "scale": {
+              "x": 0.757768,
+              "y": 0.501904,
+              "z": 2.81835
+            },
+            "size": {
+              "x": 0.757768034935,
+              "y": 0.50190401077271,
+              "z": 2.8183500766754
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "5c8b1bcc-eea5-4299-9a0e-010faa950392",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8329358571718721537",
+                "slavePartID": "8329310509256687617",
+                "slavePartName": "wall"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8329356374717890561",
+            "massCenter": {
+              "x": 16.3412628173828,
+              "y": 55.9074859619141,
+              "z": -72.0157470703125
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "fire3",
+            "position": {
+              "x": 16.3412628173828,
+              "y": 55.9074859619141,
+              "z": -72.0157470703125
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -90,
+              "y": -86.9999618530273
+            },
+            "scale": {
+              "x": 0.190605,
+              "y": 0.2,
+              "z": 0.190605
+            },
+            "shape": "3",
+            "size": {
+              "x": 0.190605,
+              "y": 0.2,
+              "z": 0.190605
+            }
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "9ed32eef-4721-445a-86e1-ed5ca0a7415b",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8336481085128966145",
+            "massCenter": {
+              "x": 19.5762691497803,
+              "y": 55.6937408447266,
+              "z": -68.0124969482422
+            },
+            "material": {
+              "alpha": 0,
+              "color": {
+                "b": 0
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 19.5762691497803,
+              "y": 55.6937408447266,
+              "z": -68.0124969482422
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 92.9999923706055
+            },
+            "scale": {
+              "x": 0.584234,
+              "y": 0.501904,
+              "z": 2.81835
+            },
+            "size": {
+              "x": 0.58423388004303,
+              "y": 0.50190401077271,
+              "z": 2.8183500766754
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "39a64d2f-1144-4fb7-ad68-bc07ad4d1097",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_FixedConstraint",
+                "id": "8329358512692002817",
+                "slavePartID": "8329310509256687617",
+                "slavePartName": "wall"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8329353825547124737",
+            "massCenter": {
+              "x": 16.5551986694336,
+              "y": 55.582218170166,
+              "z": -67.9337615966797
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "fire",
+            "position": {
+              "x": 16.5551986694336,
+              "y": 55.582218170166,
+              "z": -67.9337615966797
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -90,
+              "y": -86.9999618530273
+            },
+            "scale": {
+              "x": 0.170776,
+              "y": 0.2,
+              "z": 0.170776
+            },
+            "shape": "3",
+            "size": {
+              "x": 0.170776,
+              "y": 0.2,
+              "z": 0.170776
+            }
+          }
+        ],
+        "id": "8412656843224612865",
+        "name": "Frozen Trap",
+        "position": {
+          "x": 18.6359157562256,
+          "y": 56.036018371582,
+          "z": -70.2252578735352
+        },
+        "rotation": {
+          "y": 92.9999923706055
+        },
+        "size": {
+          "x": 7.6701717376709,
+          "y": 1.5770416259766,
+          "z": 4.6044158935547
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "37a7d402-50d2-438d-abbe-4031372690d5",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalColor": {
+                  "b": 46,
+                  "g": 41,
+                  "r": 41
+                },
+                "decalSurface": "5",
+                "decalTexture": {
+                  "asset": "asset/file/MuchaTseBle.png",
+                  "selector": "editor/Parkour/asset/file/01.png"
+                },
+                "id": "8809254100595212289"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/MuchaTseBle.png",
+                  "selector": "editor/Parkour/asset/file/01.png"
+                },
+                "id": "8809254100597047297"
+              }
+            ],
+            "density": 3.63,
+            "friction": 0.2,
+            "id": "8809254100599341057",
+            "massCenter": {
+              "x": 15.9838991165161,
+              "y": 32.1148567199707,
+              "z": -13.1758708953857
+            },
+            "material": {
+              "color": {
+                "b": 153,
+                "g": 144,
+                "r": 144
+              },
+              "discardAlpha": 1,
+              "texture": "part_luanshi.tga"
+            },
+            "name": "platform",
+            "position": {
+              "x": 15.9838991165161,
+              "y": 32.1148567199707,
+              "z": -13.1758708953857
+            },
+            "restitution": 0.17,
+            "rotation": {
+              "x": 21.9999885559082
+            },
+            "scale": {
+              "x": 1.94035,
+              "y": 0.241577,
+              "z": 6.34355
+            },
+            "size": {
+              "x": 1.94034612178802,
+              "y": 0.241576880216599,
+              "z": 6.34355497360229
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8809254100659781633",
+        "name": " Jumping Platform",
+        "position": {
+          "x": 18.3558368682861,
+          "y": 32.1593017578125,
+          "z": -13.6925144195557
+        },
+        "rotation": {
+          "x": -8.53773315157014e-07
+        },
+        "scale": {
+          "x": 0.896254,
+          "y": 0.896254,
+          "z": 0.896254
+        },
+        "size": {
+          "x": 0.896254003047943,
+          "y": 0.896254003047943,
+          "z": 0.896253943443298
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "37a7d402-50d2-438d-abbe-4031372690d5",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalColor": {
+                  "b": 46,
+                  "g": 41,
+                  "r": 41
+                },
+                "decalSurface": "5",
+                "decalTexture": {
+                  "asset": "asset/file/MuchaTseBle.png",
+                  "selector": "editor/Parkour/asset/file/01.png"
+                },
+                "id": "8809414880107429889"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/MuchaTseBle.png",
+                  "selector": "editor/Parkour/asset/file/01.png"
+                },
+                "id": "8809414880108920833"
+              }
+            ],
+            "density": 3.63,
+            "friction": 0.2,
+            "id": "8809414880111017985",
+            "massCenter": {
+              "x": 11.9595880508423,
+              "y": 37.4971389770508,
+              "z": -26.8026027679443
+            },
+            "material": {
+              "color": {
+                "b": 153,
+                "g": 144,
+                "r": 144
+              },
+              "discardAlpha": 1,
+              "texture": "part_luanshi.tga"
+            },
+            "name": "platform",
+            "position": {
+              "x": 11.9595880508423,
+              "y": 37.4971389770508,
+              "z": -26.8026027679443
+            },
+            "restitution": 0.17,
+            "rotation": {
+              "x": 32.7115211486816,
+              "y": 174.264495849609,
+              "z": -1.10470902919769
+            },
+            "scale": {
+              "x": 2.1257,
+              "y": 0.264652,
+              "z": 6.94949
+            },
+            "size": {
+              "x": 2.12569761276245,
+              "y": 0.264652371406555,
+              "z": 6.94948959350586
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8809414880117686273",
+        "name": " Jumping Platform",
+        "position": {
+          "x": 9.32298851013184,
+          "y": 37.6029167175293,
+          "z": -26.4937953948975
+        },
+        "rotation": {
+          "x": 10.7148809432983,
+          "y": 174.685684204102,
+          "z": -0.945968866348267
+        },
+        "scale": {
+          "x": 1.07045,
+          "y": 1.07045,
+          "z": 1.07045
+        },
+        "size": {
+          "x": 1.07044899463654,
+          "y": 1.07044887542725,
+          "z": 1.0704482793808
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "2699210d-9cab-46b4-82f8-bc15707afab8",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/grunge background  for free.jpg"
+                },
+                "id": "8809419373716307969"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8809419373719158785",
+            "massCenter": {
+              "x": 15.6550407409668,
+              "y": 33.560977935791,
+              "z": -23.0496120452881
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "Flash",
+            "position": {
+              "x": 15.6550407409668,
+              "y": 33.560977935791,
+              "z": -23.0496120452881
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -91.9999847412109
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "b8b977ec-8f72-4dc0-b081-c5fc63242b48",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/grunge background  for free.jpg"
+                },
+                "id": "8809419373726203905"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8809419373728727041",
+            "massCenter": {
+              "x": 14.2432012557983,
+              "y": 33.8609809875488,
+              "z": -25.6004428863525
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "Flash",
+            "position": {
+              "x": 14.2432012557983,
+              "y": 33.8609809875488,
+              "z": -25.6004428863525
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -91.9999847412109
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "903caea4-674b-491c-93c0-15fb038224de",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/grunge background  for free.jpg"
+                },
+                "id": "8809419373734789121"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8809419373736984577",
+            "massCenter": {
+              "x": 16.7991790771484,
+              "y": 34.6109619140625,
+              "z": -27.7325439453125
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "Flash",
+            "position": {
+              "x": 16.7991790771484,
+              "y": 34.6109619140625,
+              "z": -27.7325439453125
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": -91.9999847412109
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8809419373748191233",
+        "name": "Jumping Platform",
+        "position": {
+          "x": 15.4775667190552,
+          "y": 34.0859718322754,
+          "z": -25.4172534942627
+        },
+        "rotation": {
+          "y": -91.9999847412109
+        },
+        "size": {
+          "x": 6.7200059890747,
+          "y": 1.3499870300293,
+          "z": 4.4800109863281
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "2699210d-9cab-46b4-82f8-bc15707afab8",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/grunge background  for free.jpg"
+                },
+                "id": "8809420566928293889"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8809420566932160513",
+            "massCenter": {
+              "x": 13.5145435333252,
+              "y": 39.7439918518066,
+              "z": -22.543514251709
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "Flash",
+            "position": {
+              "x": 13.5145435333252,
+              "y": 39.7439918518066,
+              "z": -22.543514251709
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 86.0000305175781
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "b8b977ec-8f72-4dc0-b081-c5fc63242b48",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/grunge background  for free.jpg"
+                },
+                "id": "8809420566939467777"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8809420566941515777",
+            "massCenter": {
+              "x": 14.8365020751953,
+              "y": 40.0439949035645,
+              "z": -19.9449615478516
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "Flash",
+            "position": {
+              "x": 14.8365020751953,
+              "y": 40.0439949035645,
+              "z": -19.9449615478516
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 86.0000305175781
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "903caea4-674b-491c-93c0-15fb038224de",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/grunge background  for free.jpg"
+                },
+                "id": "8809420566948118529"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8809420566950133761",
+            "massCenter": {
+              "x": 12.2076683044434,
+              "y": 40.7939758300781,
+              "z": -17.9033603668213
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "Flash",
+            "position": {
+              "x": 12.2076683044434,
+              "y": 40.7939758300781,
+              "z": -17.9033603668213
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "y": 86.0000305175781
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8809420566958686209",
+        "name": "Jumping Platform",
+        "position": {
+          "x": 13.6092796325684,
+          "y": 40.268985748291,
+          "z": -20.17112159729
+        },
+        "rotation": {
+          "y": 86.0000305175781
+        },
+        "size": {
+          "x": 6.7200059890747,
+          "y": 1.3499870300293,
+          "z": 4.4800109863281
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "e15e7cd4-3120-4a89-a03e-d0395878a3da",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png"
+                },
+                "id": "8809496951809916929"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalTexture": {
+                  "asset": "asset/file/Premium.png"
+                },
+                "id": "8809496951811342337"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8809496951813505025",
+            "massCenter": {
+              "x": 9.43312549591064,
+              "y": 31.8400020599365,
+              "z": -7.63458204269409
+            },
+            "material": {
+              "color": {
+                "b": 79,
+                "g": 43,
+                "r": 9
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 9.43312549591064,
+              "y": 31.8400020599365,
+              "z": -7.63458204269409
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "size": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "1cc37593-d774-4b57-907d-98d01e8b9931",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/grunge background  for free.jpg",
+                  "selector": "editor/Parkour/asset/file/dianliu.png"
+                },
+                "id": "8809496951820140545"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8809496951822123009",
+            "massCenter": {
+              "x": 11.7732343673706,
+              "y": 31.5,
+              "z": -2.85518455505371
+            },
+            "material": {
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 0
+              },
+              "discardAlpha": 1
+            },
+            "name": "platform",
+            "position": {
+              "x": 11.7732343673706,
+              "y": 31.5,
+              "z": -2.85518455505371
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 13.6017
+            },
+            "size": {
+              "x": 2,
+              "y": 0.30000001192093,
+              "z": 13.601675033569
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "f80d8956-4b68-4cf3-8a63-b6d1d39a3f97",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png"
+                },
+                "id": "8809496951828103169"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "1",
+                "decalTexture": {
+                  "asset": "asset/file/Premium.png"
+                },
+                "id": "8809496951829315585"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8809496951831445505",
+            "massCenter": {
+              "x": 13.8531408309937,
+              "y": 31.8400020599365,
+              "z": -7.63458204269409
+            },
+            "material": {
+              "color": {
+                "b": 55,
+                "g": 18,
+                "r": 3
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 13.8531408309937,
+              "y": 31.8400020599365,
+              "z": -7.63458204269409
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "size": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "useAnchor": true,
+            "useCollide": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "a79818c7-d85e-462d-b0fe-ec2017c4c294",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8809496951838146561",
+            "massCenter": {
+              "x": 11.7732343673706,
+              "y": 31.7999992370605,
+              "z": -7.44216108322144
+            },
+            "material": {
+              "alpha": 0,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 174
+              },
+              "discardAlpha": 1
+            },
+            "name": "kill",
+            "position": {
+              "x": 11.7732343673706,
+              "y": 31.7999992370605,
+              "z": -7.44216108322144
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 0.509031
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 0.509031
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "6d51a263-da9f-4835-b6eb-4a0451481d7f",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalTexture": {
+                  "asset": "asset/file/Premium.png"
+                },
+                "id": "8809496951894720513"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png"
+                },
+                "id": "8809496951895982081"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8809496951898554369",
+            "massCenter": {
+              "x": 9.43312549591064,
+              "y": 31.8400020599365,
+              "z": 2.15543556213379
+            },
+            "material": {
+              "color": {
+                "b": 68,
+                "g": 36,
+                "r": 6
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 9.43312549591064,
+              "y": 31.8400020599365,
+              "z": 2.15543556213379
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "size": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "208bf5d6-9cf7-4c98-a38d-f0daa8e6bd6c",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/Blue Technology.png"
+                },
+                "id": "8809496951904075777"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "1",
+                "decalTexture": {
+                  "asset": "asset/file/Premium.png"
+                },
+                "id": "8809496951905239041"
+              }
+            ],
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8809496951907336193",
+            "massCenter": {
+              "x": 13.8531408309937,
+              "y": 31.8400020599365,
+              "z": 2.15543556213379
+            },
+            "material": {
+              "color": {
+                "b": 76,
+                "g": 43,
+                "r": 8
+              },
+              "discardAlpha": 1
+            },
+            "position": {
+              "x": 13.8531408309937,
+              "y": 31.8400020599365,
+              "z": 2.15543556213379
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "size": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "useAnchor": true,
+            "useCollide": false
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "8a66512f-f579-49c0-bc2a-bc04b123089f",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8809496951913267201",
+            "massCenter": {
+              "x": 11.7732343673706,
+              "y": 31.7999992370605,
+              "z": 2.29783964157104
+            },
+            "material": {
+              "alpha": 0,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 174
+              },
+              "discardAlpha": 1
+            },
+            "name": "kill",
+            "position": {
+              "x": 11.7732343673706,
+              "y": 31.7999992370605,
+              "z": 2.29783964157104
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 0.509031
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 0.509031
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "34809349-36ea-4a9e-b48a-b114dc618225",
+            "density": 2.2,
+            "friction": 0.37,
+            "id": "8809499512874401793",
+            "massCenter": {
+              "x": 11.7732343673706,
+              "y": 31.7999992370605,
+              "z": 0.417839646339417
+            },
+            "material": {
+              "alpha": 0,
+              "color": {
+                "b": 0,
+                "g": 0,
+                "r": 174
+              },
+              "discardAlpha": 1
+            },
+            "name": "kill",
+            "position": {
+              "x": 11.7732343673706,
+              "y": 31.7999992370605,
+              "z": 0.417839646339417
+            },
+            "restitution": 0.3,
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 0.509031
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 0.509031
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8809496951932305409",
+        "name": "Electric Power Device",
+        "position": {
+          "x": 11.6940574645996,
+          "y": 31.7200031280518,
+          "z": -2.85518455505371
+        },
+        "scale": {
+          "x": 5.15253,
+          "y": 0.740007,
+          "z": 13.6017
+        },
+        "size": {
+          "x": 5.152533531189,
+          "y": 0.7400074005127,
+          "z": 13.601699829102
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "37a7d402-50d2-438d-abbe-4031372690d5",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalColor": {
+                  "b": 46,
+                  "g": 41,
+                  "r": 41
+                },
+                "decalSurface": "5",
+                "decalTexture": {
+                  "asset": "asset/file/MuchaTseBle.png",
+                  "selector": "editor/Parkour/asset/file/01.png"
+                },
+                "id": "8809500920157650945"
+              },
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/MuchaTseBle.png",
+                  "selector": "editor/Parkour/asset/file/01.png"
+                },
+                "id": "8809500920159141889"
+              }
+            ],
+            "density": 3.63,
+            "friction": 0.2,
+            "id": "8809500920161304577",
+            "massCenter": {
+              "x": 11.6888990402222,
+              "y": 32.1148567199707,
+              "z": -13.1758708953857
+            },
+            "material": {
+              "color": {
+                "b": 153,
+                "g": 144,
+                "r": 144
+              },
+              "discardAlpha": 1,
+              "texture": "part_luanshi.tga"
+            },
+            "name": "platform",
+            "position": {
+              "x": 11.6888990402222,
+              "y": 32.1148567199707,
+              "z": -13.1758708953857
+            },
+            "restitution": 0.17,
+            "rotation": {
+              "x": 21.9999885559082
+            },
+            "scale": {
+              "x": 1.94035,
+              "y": 0.241577,
+              "z": 6.34355
+            },
+            "size": {
+              "x": 1.94034612178802,
+              "y": 0.241576880216599,
+              "z": 6.34355497360229
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8809500920168726529",
+        "name": " Jumping Platform",
+        "position": {
+          "x": 14.0608367919922,
+          "y": 32.1593017578125,
+          "z": -13.6925144195557
+        },
+        "rotation": {
+          "x": -8.53773315157014e-07
+        },
+        "scale": {
+          "x": 0.896254,
+          "y": 0.896254,
+          "z": 0.896254
+        },
+        "size": {
+          "x": 0.896254003047943,
+          "y": 0.896254003047943,
+          "z": 0.896253943443298
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/197aa620-2215-4359-b2da-4e4bbb9d0205",
+        "id": "8809641410993913857",
+        "position": {
+          "x": 12.4685459136963,
+          "y": 31.6499996185303,
+          "z": 11.9924736022949
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/197aa620-2215-4359-b2da-4e4bbb9d0205",
+        "id": "8809662775608999937",
+        "position": {
+          "x": 18.2271747589111,
+          "y": 31.6554279327393,
+          "z": 10.8458757400513
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "51ae4786-387e-450b-84ce-cc94f9b55410",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/03.png",
+                  "selector": "editor/Parkour/asset/file/03.png"
+                },
+                "id": "8809667291770257409"
+              }
+            ],
+            "density": 2.2,
+            "id": "8809667291772485633",
+            "lineVelocity": {
+              "y": 20,
+              "z": 60
+            },
+            "massCenter": {
+              "x": 19.6807250976562,
+              "y": 50.5934257507324,
+              "z": 20.7829570770264
+            },
+            "material": {
+              "color": {
+                "r": 170
+              },
+              "discardAlpha": 1
+            },
+            "name": "Trampoline",
+            "position": {
+              "x": 19.6807250976562,
+              "y": 50.5934257507324,
+              "z": 20.7829570770264
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 42,
+              "y": 103.999992370605
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "235e0a71-29f9-492c-b666-4da5179a2d05",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/03.png",
+                  "selector": "editor/Parkour/asset/file/03.png"
+                },
+                "id": "8809667291789770753"
+              }
+            ],
+            "density": 2.2,
+            "id": "8809667291792670721",
+            "lineVelocity": {
+              "y": 20,
+              "z": -60
+            },
+            "massCenter": {
+              "x": 22.4884777069092,
+              "y": 49.7700080871582,
+              "z": 17.3105564117432
+            },
+            "material": {
+              "color": {
+                "r": 170
+              },
+              "discardAlpha": 1
+            },
+            "name": "Trampoline",
+            "position": {
+              "x": 22.4884777069092,
+              "y": 49.7700080871582,
+              "z": 17.3105564117432
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -41.9999885559082,
+              "y": 103.999992370605
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8809667291801698305",
+        "name": "Trampoline",
+        "position": {
+          "x": 21.084602355957,
+          "y": 50.1817169189453,
+          "z": 19.0467586517334
+        },
+        "rotation": {
+          "y": 103.999992370605
+        },
+        "size": {
+          "x": 4.689998626709,
+          "y": 2.3846282958984,
+          "z": 5.2514295578003
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Model",
+        "batchType": "Dynamic",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "51ae4786-387e-450b-84ce-cc94f9b55410",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/03.png",
+                  "selector": "editor/Parkour/asset/file/03.png"
+                },
+                "id": "8809667870407933953"
+              }
+            ],
+            "density": 2.2,
+            "id": "8809667870410113025",
+            "lineVelocity": {
+              "y": 20,
+              "z": 60
+            },
+            "massCenter": {
+              "x": 20.371265411377,
+              "y": 54.712474822998,
+              "z": 17.1070671081543
+            },
+            "material": {
+              "color": {
+                "r": 170
+              },
+              "discardAlpha": 1
+            },
+            "name": "Trampoline",
+            "position": {
+              "x": 20.371265411377,
+              "y": 54.712474822998,
+              "z": 17.1070671081543
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": 42.000003814697
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          },
+          {
+            "__OBJ_TYPE": "Instance_Part",
+            "batchType": "Dynamic",
+            "btsKey": "235e0a71-29f9-492c-b666-4da5179a2d05",
+            "children": [
+              {
+                "__OBJ_TYPE": "Instance_Decal",
+                "decalSurface": "4",
+                "decalTexture": {
+                  "asset": "asset/file/03.png",
+                  "selector": "editor/Parkour/asset/file/03.png"
+                },
+                "id": "8809667870416535553"
+              }
+            ],
+            "density": 2.2,
+            "id": "8809667870418599937",
+            "lineVelocity": {
+              "y": 20,
+              "z": -60
+            },
+            "massCenter": {
+              "x": 23.0612640380859,
+              "y": 53.8890571594238,
+              "z": 20.6714668273926
+            },
+            "material": {
+              "color": {
+                "r": 170
+              },
+              "discardAlpha": 1
+            },
+            "name": "Trampoline",
+            "position": {
+              "x": 23.0612640380859,
+              "y": 53.8890571594238,
+              "z": 20.6714668273926
+            },
+            "restitution": 0.3,
+            "rotation": {
+              "x": -41.999996185303
+            },
+            "scale": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "size": {
+              "x": 2,
+              "y": 0.3,
+              "z": 2
+            },
+            "useAnchor": true
+          }
+        ],
+        "id": "8809667870426005505",
+        "name": "Trampoline",
+        "position": {
+          "x": 21.7162628173828,
+          "y": 54.3007659912109,
+          "z": 18.8892669677734
+        },
+        "size": {
+          "x": 4.689998626709,
+          "y": 2.3846282958984,
+          "z": 5.2514295578003
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "batchType": "Dynamic",
+        "btsKey": "1f726a70-beae-4feb-85db-ecc3857030b3",
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_Decal",
+            "decalSurface": "4",
+            "decalTexture": {
+              "asset": "asset/file/Chapter 5.png",
+              "selector": "editor/Parkour/asset/file/cundangdian.png"
+            },
+            "id": "8809686181265604609"
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8809686181267685377",
+        "massCenter": {
+          "x": 14.6182317733765,
+          "y": 35.2700119018555,
+          "z": -31.5671482086182
+        },
+        "material": {
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "discardAlpha": 1
+        },
+        "name": "Respawn Point",
+        "position": {
+          "x": 14.6182317733765,
+          "y": 35.2700119018555,
+          "z": -31.5671482086182
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 8.01797,
+          "y": 0.299998,
+          "z": 3.99997
+        },
+        "size": {
+          "x": 8.01796817779541,
+          "y": 0.299998104572296,
+          "z": 3.99996948242188
+        },
+        "useAnchor": true
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "down": 14,
+      "up": 100
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6c0d246852b6f50f33eaa15a7fa96841"
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/file/ice.effect",
+        "selector": "editor/Parkour/asset/file/ice.effect"
+      }
+    },
+    "deadRemove": true,
+    "moveSpeed": -5,
+    "name": {
+      "value": "buff_freeze"
+    },
+    "sound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6d950ee88d92c221e446a4d0bbe9017b"
+    },
+    "VERSION": "0.24"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/file/halo.effect",
+        "selector": "editor/Fun_Jump/asset/file/halo.effect"
+      }
+    },
+    "deadRemove": true,
+    "name": {
+      "value": "buff_aperture"
+    },
+    "sound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "sync": "self"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "934d994639d7b2c2fd5620c03cd087dd"
+    },
+    "VERSION": "0.24"
+  }
+}

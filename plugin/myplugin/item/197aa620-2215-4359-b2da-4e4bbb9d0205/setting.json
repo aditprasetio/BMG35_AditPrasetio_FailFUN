@@ -1,0 +1,21 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "dropSpeed": 0.2,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Mesh/Blue-Purple Truncated Energy Cannon/g2047_gun_07_04.png",
+  "itemname": "item_197aa620-2215-4359-b2da-4e4bbb9d0205",
+  "mesh": "asset/Mesh/Blue-Purple Truncated Energy Cannon/g2047_gun_07_04.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/2ee7d9be-fcfe-41e1-b754-1649c4ff00e5"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

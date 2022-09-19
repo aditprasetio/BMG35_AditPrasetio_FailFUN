@@ -1,0 +1,28 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/Mesh/Red Grimace Sword/g2030_weapon_7_2.tga"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip",
+        "equip_skill": [
+          "myplugin/hurt"
+        ]
+      }
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Red Grimace Sword/g2030_weapon_7_4.mesh"
+    },
+    "name": {
+      "value": "item_1724197c-6198-455a-936b-e503960d8b6f"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "977f4e164509e236b95b5397d285cf15",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

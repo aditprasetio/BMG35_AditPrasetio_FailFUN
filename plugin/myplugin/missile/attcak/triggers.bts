@@ -1,0 +1,4 @@
+HIT_ENTITY {
+	AddEntityBuff(buffTime = 0, cfg = "", entity = $obj1)
+	SetEntityRebirthPosition(entity = $obj1, pos = GetRebirthPos())
+}

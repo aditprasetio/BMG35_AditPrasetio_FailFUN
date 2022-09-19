@@ -1,0 +1,66 @@
+{
+  "data": {
+    "castAction": "attack2",
+    "castEffect": {
+      "effect": {
+        "asset": "asset/file/xueguai/jiaoshi.effect",
+        "selector": "editor/Parkour/asset/file/xueguai/jiaoshi.effect"
+      },
+      "pos": {
+        "y": 1.5,
+        "z": 1
+      }
+    },
+    "castSound": {
+      "sound": {
+        "asset": "asset/file/jump.mp3"
+      },
+      "volume": {
+        "value": 0
+      }
+    },
+    "cdTime": {
+      "value": 5
+    },
+    "name": {
+      "value": "33298a66-df0a-4de8-8f45-b261a9f5d79a"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/attcak",
+            "startPos": {
+              "y": 1.5,
+              "z": 1
+            }
+          }
+        ],
+        "target": {
+          "type": "BodyYaw"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Effect/Purple Dark Power Effect/gfxy2.png"
+      },
+      "icon_pushed": {
+        "asset": "asset/Effect/Purple Dark Power Effect/gfxy2.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClickIcon": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "65ea4e888986eac5b9a980e4d96b837e",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.24"
+  }
+}

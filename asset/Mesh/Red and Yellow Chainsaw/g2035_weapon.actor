@@ -1,0 +1,286 @@
+<ActorTemplates>
+	<ActorTemplate SoundName4="" SoundName1="" Alpha="1" SelectedRingSize="1" AttackScale="1" Volume="0.8" WoundBone="" MinDistance="1" name="111.actor" WoundAngle="25" Originalscale="1 1 1" SoundFileNum="0" SoundName5="" TextHeight="0" Skeleton="bone001.skel" IntervalTime="2" MaxDistance="16" SoundName2="" SoundName3="" IsShowShadow="true">
+		<BodyParts>
+			<BodyPart ColorParams="1 1 1 1" SlaveName="1" MasterName="body" DefaultUse="false" EdgeColor="1 1 1 1">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="g2035_weapon_melee_1">
+					<yaw value="0"/>
+					<SpecularStrength value="1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<Position_X value="0"/>
+					<pitch value="0"/>
+					<Position_Y value="0"/>
+					<scale value="1"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseBloom value="false"/>
+					<UseEdge value="false"/>
+					<SocketName value="bone001"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseOriginalcolor value="false"/>
+					<UseReflect value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<Position_Z value="0"/>
+					<LocalBrightnessScale value="1"/>
+					<SpecularCoef value="0.15"/>
+					<roll value="0"/>
+					<FileName value="g2035_weapon_melee_1.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart ColorParams="1 1 1 1" SlaveName="10" MasterName="body" DefaultUse="true" EdgeColor="1 1 1 1">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="g2035_weapon_melee_10">
+					<yaw value="0"/>
+					<SpecularStrength value="1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<Position_X value="0"/>
+					<pitch value="0"/>
+					<Position_Y value="0"/>
+					<scale value="1"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseBloom value="false"/>
+					<UseEdge value="false"/>
+					<SocketName value="bone001"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseOriginalcolor value="false"/>
+					<UseReflect value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<Position_Z value="0"/>
+					<LocalBrightnessScale value="1"/>
+					<SpecularCoef value="0.15"/>
+					<roll value="0"/>
+					<FileName value="g2035_weapon_melee_10.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart ColorParams="1 1 1 1" SlaveName="2" MasterName="body" DefaultUse="false" EdgeColor="1 1 1 1">
+				<Effect>
+					<yaw value="0"/>
+					<type_name value="Continuous_tp_light"/>
+					<SocketName value="bone001"/>
+					<Alpha value="1"/>
+					<pitch value="0"/>
+					<TimeScale value="0.6"/>
+					<Position_Y value="0.7"/>
+					<Position_Z value="0"/>
+					<scale value="0.8"/>
+					<roll value="0"/>
+					<Position_X value="0"/>
+					<FileName value="Continuous_tp_light.effect"/>
+				</Effect>
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="g2035_weapon_melee_2">
+					<yaw value="180"/>
+					<SpecularStrength value="1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<Position_X value="0"/>
+					<pitch value="120"/>
+					<Position_Y value="1"/>
+					<scale value="1.6"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseBloom value="false"/>
+					<UseEdge value="false"/>
+					<SocketName value="bone001"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseOriginalcolor value="false"/>
+					<UseReflect value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<Position_Z value="0"/>
+					<LocalBrightnessScale value="1"/>
+					<SpecularCoef value="0.15"/>
+					<roll value="0"/>
+					<FileName value="g2035_weapon_melee_2.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart ColorParams="1 1 1 1" SlaveName="3" MasterName="body" DefaultUse="false" EdgeColor="1 1 1 1">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="g2035_weapon_melee_3">
+					<yaw value="0"/>
+					<SpecularStrength value="1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<Position_X value="0"/>
+					<pitch value="0"/>
+					<Position_Y value="0"/>
+					<scale value="1"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseBloom value="false"/>
+					<UseEdge value="false"/>
+					<SocketName value="bone001"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseOriginalcolor value="false"/>
+					<UseReflect value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<Position_Z value="0"/>
+					<LocalBrightnessScale value="1"/>
+					<SpecularCoef value="0.15"/>
+					<roll value="0"/>
+					<FileName value="g2035_weapon_melee_3.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart ColorParams="1 1 1 1" SlaveName="4" MasterName="body" DefaultUse="false" EdgeColor="1 1 1 1">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="g2035_weapon_melee_4">
+					<yaw value="0"/>
+					<SpecularStrength value="1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<Position_X value="0"/>
+					<pitch value="0"/>
+					<Position_Y value="0"/>
+					<scale value="1"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseBloom value="false"/>
+					<UseEdge value="false"/>
+					<SocketName value="bone001"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseOriginalcolor value="false"/>
+					<UseReflect value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<Position_Z value="0"/>
+					<LocalBrightnessScale value="1"/>
+					<SpecularCoef value="0.15"/>
+					<roll value="0"/>
+					<FileName value="g2035_weapon_melee_4.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart ColorParams="1 1 1 1" SlaveName="5" MasterName="body" DefaultUse="false" EdgeColor="1 1 1 1">
+				<Effect>
+					<yaw value="0"/>
+					<type_name value="Continuous_tp_light"/>
+					<SocketName value="bone001"/>
+					<Alpha value="1"/>
+					<pitch value="0"/>
+					<TimeScale value="1"/>
+					<Position_Y value="0.7"/>
+					<Position_Z value="0"/>
+					<scale value="0.8"/>
+					<roll value="0"/>
+					<Position_X value="0"/>
+					<FileName value="Continuous_tp_light.effect"/>
+				</Effect>
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="g2035_weapon_melee_5">
+					<yaw value="180"/>
+					<SpecularStrength value="1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<Position_X value="0"/>
+					<pitch value="-87.5001"/>
+					<Position_Y value="0.207424"/>
+					<scale value="1"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseBloom value="false"/>
+					<UseEdge value="false"/>
+					<SocketName value="bone001"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseOriginalcolor value="false"/>
+					<UseReflect value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<Position_Z value="0"/>
+					<LocalBrightnessScale value="1"/>
+					<SpecularCoef value="0.15"/>
+					<roll value="180"/>
+					<FileName value="g2035_weapon_melee_5.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart ColorParams="1 1 1 1" SlaveName="6" MasterName="body" DefaultUse="false" EdgeColor="1 1 1 1">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="g2035_weapon_melee_6">
+					<yaw value="0"/>
+					<SpecularStrength value="1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<Position_X value="0"/>
+					<pitch value="0"/>
+					<Position_Y value="0"/>
+					<scale value="1"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseBloom value="false"/>
+					<UseEdge value="false"/>
+					<SocketName value="bone001"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseOriginalcolor value="false"/>
+					<UseReflect value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<Position_Z value="0"/>
+					<LocalBrightnessScale value="1"/>
+					<SpecularCoef value="0.15"/>
+					<roll value="0"/>
+					<FileName value="g2035_weapon_melee_6.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart ColorParams="1 1 1 1" SlaveName="7" MasterName="body" DefaultUse="false" EdgeColor="1 1 1 1">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="g2035_weapon_melee_7">
+					<yaw value="0"/>
+					<SpecularStrength value="1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<Position_X value="0"/>
+					<pitch value="0"/>
+					<Position_Y value="0"/>
+					<scale value="1"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseBloom value="false"/>
+					<UseEdge value="false"/>
+					<SocketName value="bone001"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseOriginalcolor value="false"/>
+					<UseReflect value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<Position_Z value="0"/>
+					<LocalBrightnessScale value="1"/>
+					<SpecularCoef value="0.15"/>
+					<roll value="0"/>
+					<FileName value="g2035_weapon_melee_7.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart ColorParams="1 1 1 1" SlaveName="8" MasterName="body" DefaultUse="false" EdgeColor="1 1 1 1">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="g2035_weapon_melee_8">
+					<yaw value="0"/>
+					<SpecularStrength value="1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<Position_X value="0"/>
+					<pitch value="0"/>
+					<Position_Y value="0"/>
+					<scale value="1"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseBloom value="false"/>
+					<UseEdge value="false"/>
+					<SocketName value="bone001"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseOriginalcolor value="false"/>
+					<UseReflect value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<Position_Z value="0"/>
+					<LocalBrightnessScale value="1"/>
+					<SpecularCoef value="0.15"/>
+					<roll value="0"/>
+					<FileName value="g2035_weapon_melee_8.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart ColorParams="1 1 1 1" SlaveName="9" MasterName="body" DefaultUse="false" EdgeColor="1 1 1 1">
+				<StaticMesh LocalAlpha="1" DiscardAlpha="0" type_name="g2035_weapon_melee_9">
+					<yaw value="0"/>
+					<SpecularStrength value="1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<Position_X value="0"/>
+					<pitch value="0"/>
+					<Position_Y value="0"/>
+					<scale value="1"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseBloom value="false"/>
+					<UseEdge value="false"/>
+					<SocketName value="bone001"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseOriginalcolor value="false"/>
+					<UseReflect value="false"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<Position_Z value="0"/>
+					<LocalBrightnessScale value="1"/>
+					<SpecularCoef value="0.15"/>
+					<roll value="0"/>
+					<FileName value="g2035_weapon_melee_9.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills/>
+		<Anims/>
+	</ActorTemplate>
+</ActorTemplates>

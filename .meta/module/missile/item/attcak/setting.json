@@ -1,0 +1,242 @@
+{
+  "data": {
+    "boundingVolume": {
+      "height": 1.8,
+      "height_c": 1.8,
+      "radius": 0.3,
+      "radius_c": 0.3,
+      "type": "Sphere"
+    },
+    "hitBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "hitCount": {
+      "hitEntityCount": 1,
+      "isValid": true
+    },
+    "hitEntitySkill": "myplugin/hurt",
+    "hitEntitySound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "lifeTime": {
+      "value": 60
+    },
+    "missileModel": {
+      "modelMesh": {
+        "asset": "asset/file/Snowball/Sphere005.mesh",
+        "selector": "editor/Parkour/asset/file/Snowball/Sphere005.mesh"
+      },
+      "type": "mesh"
+    },
+    "moveSpeed": 10,
+    "name": {
+      "value": "missile_attcak"
+    },
+    "reboundBlockSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/Effect/Purple Dark Power Effect/gfxy_dark force_purple.effect",
+        "selector": "editor/Parkour/asset/file/binghuoyan.effect"
+      },
+      "yaw": 90
+    },
+    "startSound": {
+      "volume": {
+        "value": 0
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "a432c708-bf8b-4cae-959c-b1b42892316b"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "dbd971cc-4356-46c7-b723-a246250fc0f2"
+              },
+              "pos": {
+                "x": 744,
+                "y": 319
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "a432c708-bf8b-4cae-959c-b1b42892316b"
+              },
+              "pos": {
+                "x": 1333,
+                "y": 398
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_SetEntityRebirthPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "6a31347b-2021-4b23-b554-344e95c8ea9b"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_MapObj"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "action": "c32c56da-25a6-4edd-b210-da13bd6168db",
+                        "rawval": {
+                          "pos": {
+                            "x": 14.828950881958,
+                            "y": 31.6900568389893,
+                            "z": 20.7540893554688
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d3a719a9-60a8-4e6f-b7aa-9e069fa38ae7"
+              },
+              "pos": {
+                "x": 774,
+                "y": 624
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "6a31347b-2021-4b23-b554-344e95c8ea9b"
+              },
+              "pos": {
+                "x": 1368,
+                "y": 617
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetRebirthPos",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c32c56da-25a6-4edd-b210-da13bd6168db"
+              },
+              "pos": {
+                "x": 1333,
+                "y": 763
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "09674ac9-16ff-4c80-bb78-9e4e5ce4b7fc"
+            },
+            "type": "Trigger_MissileHitEntity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "dbd971cc-4356-46c7-b723-a246250fc0f2"
+                  },
+                  {
+                    "action": "d3a719a9-60a8-4e6f-b7aa-9e069fa38ae7"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "768b35ae-17c8-4c09-ac91-7e13ecf74ab7"
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    },
+    "vanishSound": {
+      "volume": {
+        "value": 0
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e2a7418a758bb1f8f93315572a0899f1",
+      "triggers.bts": "09c95197185d0319132b04b5b8bf463a"
+    },
+    "VERSION": "0.24"
+  }
+}

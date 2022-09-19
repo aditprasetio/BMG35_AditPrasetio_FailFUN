@@ -1,0 +1,767 @@
+{
+  "data": {
+    "md5": "910c02de709e520a8a0cae2cca9122dd",
+    "path": "asset/Gui/gameInfo.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "AutoTextScale": true,
+              "Font_size": 17,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "e783e2c0-8d9e-4fac-b241-d858871a9337"
+              },
+              "name": "Txt_countdown",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 200
+                },
+                "UDim_Y": {
+                  "Offect": 5
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 140
+                },
+                "UDim_Y": {
+                  "Offect": 40
+                }
+              },
+              "Text": "133",
+              "text_key": {
+                "value": "asset/Gui/gameInfo.layout.StaticText#c9b5b997-8eba-4cd6-b30f-818a8424a9bc"
+              },
+              "TextBoldWeight": "1",
+              "TextColours": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "id": {
+                "value": "623cf63e-9434-451f-bb04-bffdb6ab1f65"
+              },
+              "Image": {
+                "asset": "asset/Texture/icon_主界面_秒表.png"
+              },
+              "name": "CountdownIcon",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 180
+                },
+                "UDim_Y": {
+                  "Offect": 11
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 32
+                },
+                "UDim_Y": {
+                  "Offect": 32
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "24ab7bfe-ece6-40b9-afa8-7d5f8074205a"
+          },
+          "Image": {
+            "asset": "asset/Texture/bg_daojishi.png"
+          },
+          "name": "Img_countdownBg",
+          "size": {
+            "UDim_X": {
+              "Offect": 501
+            },
+            "UDim_Y": {
+              "Offect": 62
+            }
+          },
+          "Visible": false
+        },
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Alpha": 0.994,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "AutoTextScale": true,
+              "HorzFormatting": "CentreAligned",
+              "id": {
+                "value": "3190c99d-ec1a-4cf6-bc9f-5d71f0d48d02"
+              },
+              "name": "Txt_info",
+              "pos": {
+                "UDim_X": {
+                  "Offect": -3
+                },
+                "UDim_Y": {
+                  "Scale": -0.1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 16.5,
+                  "Scale": 0.85
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.85
+                }
+              },
+              "text_key": {
+                "value": "asset/Gui/gameInfo.layout.StaticText#78309b25-a8b9-46c5-953b-3c2456aed428"
+              },
+              "VertFormatting": "CentreAligned",
+              "WindowTouchThroughMode": "MousePassThroughOpen"
+            }
+          ],
+          "DisabledImage": {
+            "asset": "",
+            "selector": ""
+          },
+          "DisabledStretch": {
+            "bottom_left": 7,
+            "bottom_right": 17,
+            "top_left": 6,
+            "top_right": 5
+          },
+          "HoverImage": {
+            "asset": "asset/file/ui/icon_bule_nor（三宫格左右20px固定）.png"
+          },
+          "HoverStretch": {
+            "bottom_left": 17,
+            "bottom_right": 17,
+            "top_left": 17,
+            "top_right": 3
+          },
+          "id": {
+            "value": "337b77e2-d88f-4e6d-8612-47c522ab59bd"
+          },
+          "name": "Btn_rank",
+          "NormalImage": {
+            "asset": "asset/file/ui/icon_bule_nor（三宫格左右20px固定）.png"
+          },
+          "NormalStretch": {
+            "bottom_left": 17,
+            "bottom_right": 17,
+            "top_left": 17,
+            "top_right": 3
+          },
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.13
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/file/ui/icon_blue_act.png"
+          },
+          "PushedStretch": {
+            "bottom_left": 16,
+            "bottom_right": 18,
+            "top_left": 15,
+            "top_right": 3
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.1
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.09
+            }
+          },
+          "Text": "",
+          "text_key": {
+            "value": "asset/Gui/gameInfo.layout.Button#fc0bd0ea-2534-4b58-b0e9-a69dc37911db"
+          }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "VerticalLayoutContainer",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "DefaultWindow",
+                      "children": [
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "id": {
+                            "value": "88802a85-da6b-4596-9991-bb5fc10f27f4"
+                          },
+                          "Image": {
+                            "asset": "asset/file/ui/bg_ranking_me.png"
+                          },
+                          "name": "Img_rankLineBg",
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 1
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 1
+                            }
+                          },
+                          "Visible": false
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "AutoTextScale": true,
+                          "Font_size": 19,
+                          "HorzFormatting": "CentreAligned",
+                          "id": {
+                            "value": "0bdebf72-f741-4acc-a2a1-12941d7f8af9"
+                          },
+                          "name": "Txt_rankLineName",
+                          "pos": {
+                            "UDim_X": {
+                              "Scale": 0.05
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 0.4
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 1
+                            }
+                          },
+                          "text_key": {
+                            "value": "asset/Gui/gameInfo.layout.StaticText#79644d2e-7d51-4faf-987a-5cd91465e23b"
+                          },
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255,
+                            "r": 255
+                          },
+                          "VertFormatting": "CentreAligned"
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "AutoTextScale": true,
+                          "Font_size": 19,
+                          "HorzFormatting": "CentreAligned",
+                          "id": {
+                            "value": "78cac5a9-cef3-415f-87be-b7921066dc10"
+                          },
+                          "name": "Txt_rankLineTime",
+                          "pos": {
+                            "UDim_X": {
+                              "Scale": 0.6
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 0.4
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 1
+                            }
+                          },
+                          "text_key": {
+                            "value": "asset/Gui/gameInfo.layout.StaticText#e2860f4a-ef75-4e96-a403-a31ab0b520d7"
+                          },
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255,
+                            "r": 255
+                          },
+                          "VertFormatting": "CentreAligned"
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticText",
+                          "anchor": {
+                            "VerticalAlignment": "Centre"
+                          },
+                          "AutoTextScale": true,
+                          "Font_size": 24,
+                          "HorzFormatting": "CentreAligned",
+                          "id": {
+                            "value": "cb9acd34-314f-4fc7-879d-40e6c56b3192"
+                          },
+                          "name": "Txt_rankLineIndex",
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 0.15
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 1
+                            }
+                          },
+                          "Text": "1",
+                          "text_key": {
+                            "value": "asset/Gui/gameInfo.layout.StaticText#a07364c1-c8e4-421a-97c2-46874d78db00"
+                          },
+                          "TextColours": {
+                            "b": 255,
+                            "g": 255
+                          },
+                          "VertFormatting": "CentreAligned"
+                        },
+                        {
+                          "__OBJ_TYPE": "StaticImage",
+                          "anchor": {
+                            "VerticalAlignment": "Centre"
+                          },
+                          "id": {
+                            "value": "65cdca2d-aee9-477f-a1ee-061d2008701d"
+                          },
+                          "Image": {
+                            "asset": "asset/file/ui/img_1st.png"
+                          },
+                          "name": "Img_rankLineLogo",
+                          "pos": {
+                            "UDim_X": {
+                              "Scale": 0.025
+                            }
+                          },
+                          "size": {
+                            "UDim_X": {
+                              "Offect": 0,
+                              "Scale": 0.1
+                            },
+                            "UDim_Y": {
+                              "Offect": 0,
+                              "Scale": 1
+                            }
+                          },
+                          "Visible": false
+                        }
+                      ],
+                      "id": {
+                        "value": "36dc2bde-70b2-42be-8fcd-57a7fc76a939"
+                      },
+                      "name": "DW_rankLine",
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 1
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 0.09
+                        }
+                      }
+                    }
+                  ],
+                  "id": {
+                    "value": "1c541bfa-d5fa-4018-85d6-e934df020b25"
+                  },
+                  "name": "VL_rank",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 0.06
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "Font_size": 15,
+                  "id": {
+                    "value": "0dd36d2f-53a9-4646-b941-e97150382436"
+                  },
+                  "name": "Txt_bestTime",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 0.15
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.4
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.1
+                    }
+                  },
+                  "text_key": {
+                    "value": "asset/Gui/gameInfo.layout.StaticText#9fc76cad-0d32-48cb-b660-e74bdb640db9"
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "Button",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Bottom"
+                  },
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Centre",
+                        "VerticalAlignment": "Centre"
+                      },
+                      "AutoTextScale": true,
+                      "HorzFormatting": "CentreAligned",
+                      "id": {
+                        "value": "b8410618-fa73-496d-8591-4d3f88f46760"
+                      },
+                      "name": "Txt_info",
+                      "pos": {
+                        "UDim_Y": {
+                          "Scale": -0.1
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 0,
+                          "Scale": 0.8
+                        },
+                        "UDim_Y": {
+                          "Offect": 0,
+                          "Scale": 0.6
+                        }
+                      },
+                      "text_key": {
+                        "value": "asset/Gui/gameInfo.layout.StaticText#356b8d4d-8fbe-4eb1-8827-6b5439d1f5b3"
+                      },
+                      "VertFormatting": "CentreAligned",
+                      "WindowTouchThroughMode": "MousePassThroughOpen"
+                    }
+                  ],
+                  "HoverImage": {
+                    "asset": "asset/file/ui/icon_red_nor（三宫格左右20px固定）.png"
+                  },
+                  "HoverStretch": {
+                    "bottom_left": 17,
+                    "bottom_right": 18,
+                    "top_left": 18,
+                    "top_right": 5
+                  },
+                  "id": {
+                    "value": "3278379a-aecf-46d7-acfa-e24ec65e3d54"
+                  },
+                  "name": "Btn_close",
+                  "NormalImage": {
+                    "asset": "asset/file/ui/icon_red_nor（三宫格左右20px固定）.png"
+                  },
+                  "NormalStretch": {
+                    "bottom_left": 17,
+                    "bottom_right": 18,
+                    "top_left": 18,
+                    "top_right": 5
+                  },
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 0.2
+                    }
+                  },
+                  "PushedImage": {
+                    "asset": "asset/file/ui/icon_red_act.png"
+                  },
+                  "PushedStretch": {
+                    "bottom_left": 15,
+                    "bottom_right": 18,
+                    "top_left": 15,
+                    "top_right": 4
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    }
+                  },
+                  "Text": "",
+                  "text_key": {
+                    "value": "asset/Gui/gameInfo.layout.Button#b104fd32-5834-45cc-b77f-169f0652df6d"
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font_size": 18,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "2c169683-5c2d-4b89-a1db-0c16b08283a4"
+                  },
+                  "name": "Txt_name",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 0.05
+                    },
+                    "UDim_Y": {
+                      "Scale": -0.08
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.4
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.1
+                    }
+                  },
+                  "text_key": {
+                    "value": "asset/Gui/gameInfo.layout.StaticText#59a22f78-1f53-4ce1-a456-28d6eac09073"
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font_size": 18,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "6d74ed05-4e1e-415a-9fae-589f7bc7de33"
+                  },
+                  "name": "Txt_time",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": 0.6
+                    },
+                    "UDim_Y": {
+                      "Scale": -0.08
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.4
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.1
+                    }
+                  },
+                  "text_key": {
+                    "value": "asset/Gui/gameInfo.layout.StaticText#1e073dcd-8e9a-4845-916a-67a9ef4979c7"
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font_size": 18,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "eb48eba3-6dca-471e-b616-3c069bec7f30"
+                  },
+                  "name": "Txt_rank",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": -0.08
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.15
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.1
+                    }
+                  },
+                  "text_key": {
+                    "value": "asset/Gui/gameInfo.layout.StaticText#9099a340-a09e-48d5-995f-424f502dc8ca"
+                  },
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  }
+                }
+              ],
+              "id": {
+                "value": "1bb3b9b8-2c9c-4d26-80ee-8e3094894aa5"
+              },
+              "Image": {
+                "asset": "asset/file/ui/bg_ranking_inside.png"
+              },
+              "name": "RankBgMgr",
+              "pos": {
+                "UDim_X": {
+                  "Scale": 0.025
+                },
+                "UDim_Y": {
+                  "Scale": -0.05
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.95
+                },
+                "UDim_Y": {
+                  "Scale": 0.5
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font_size": 23,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "766a5ee8-ba4b-4e43-b463-929dca986e96"
+                  },
+                  "name": "Txt_info",
+                  "pos": {
+                    "UDim_Y": {
+                      "Scale": 0.2
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 0.7
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 0.5
+                    }
+                  },
+                  "text_key": {
+                    "value": "asset/Gui/gameInfo.layout.StaticText#aa77fcf8-2acb-4034-b7d6-1e0dd532f111"
+                  },
+                  "TextBoldWeight": "1",
+                  "TextColours": {
+                    "b": 255,
+                    "g": 255,
+                    "r": 255
+                  },
+                  "VertFormatting": "CentreAligned"
+                }
+              ],
+              "id": {
+                "value": "8619e225-d483-41e9-95ad-52f6d52b4eae"
+              },
+              "Image": {
+                "asset": "asset/file/ui/bg_ranking_big_title.png"
+              },
+              "name": "Img_logo",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.2
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.6
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.2
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "d8f68892-1465-4b64-a9a9-7820953202fa"
+          },
+          "Image": {
+            "asset": "asset/file/ui/bg_ranking_big（三宫格左右70px固定）.png"
+          },
+          "name": "Img_rankBg",
+          "pos": {
+            "UDim_Y": {
+              "Scale": 0.05
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.8
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.73
+            }
+          },
+          "Visible": false
+        }
+      ],
+      "id": {
+        "value": "f85c4ec3-b345-479a-939a-cbccf1e9173e"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "910c02de709e520a8a0cae2cca9122dd",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.24"
+  }
+}
